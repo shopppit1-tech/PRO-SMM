@@ -38,7 +38,7 @@ footer{margin-top:30px;border-color:#dbe3f2;color:#7180a2;padding:18px 0}.foot s
 <header><div class="wrap nav">
   <div class="brand"><span class="brandmark">P</span> PRO <span>SMM</span></div>
   <nav class="links"><a href="#beranda">⌂ Beranda</a><a href="#layanan">▦ Layanan</a><a href="#pesan">Harga</a><a href="#api">API</a><a href="#bantuan">? Bantuan</a></nav>
-  <div class="actions"><button class="btn" onclick="alert('Hubungkan halaman login melalui backend Anda.')">Masuk</button><button class="btn primary" onclick="alert('Hubungkan halaman pendaftaran melalui backend Anda.')">Daftar</button></div>
+  <div class="actions"><button class="btn" onclick="login()">Masuk</button><button class="btn primary" onclick="register()">Daftar</button></div>
   <button class="menu" aria-label="Menu" onclick="document.querySelector('.links').classList.toggle('mobile-open')">☰</button>
 </div></header>
 <main class="wrap" id="beranda">
@@ -80,7 +80,7 @@ footer{margin-top:30px;border-color:#dbe3f2;color:#7180a2;padding:18px 0}.foot s
     <div class="field"><label>Harga dari API Peakerr</label><div class="estimate" style="margin:0"><small>Rate / 1.000</small><strong id="total">Rp 0</strong></div></div>
    </div>
    <button class="submit" type="submit">➤ Buat Pesanan</button>
-   <p class="notice">Demo antarmuka: pesanan belum dikirim ke supplier. Hubungkan backend/API untuk transaksi nyata.</p>
+   <p class="notice">Pesanan akan dikirim ke Peakerr setelah login Supabase dan konfirmasi Anda.</p>
   </form>
  </div>
  <div class="panel">
@@ -93,18 +93,21 @@ footer{margin-top:30px;border-color:#dbe3f2;color:#7180a2;padding:18px 0}.foot s
 </main>
 <footer id="bantuan"><div class="wrap foot"><div><strong>◈ PRO SMM</strong><br><small>All Social Media Services in One Panel.</small></div><div>© 2026 PRO SMM. Semua hak dilindungi.</div><div>Keamanan • Transparansi • Dukungan</div></div></footer>
 <script>
-const platform=document.getElementById('platform'), service=document.getElementById('service'), qty=document.getElementById('quantity'), total=document.getElementById('total');const USD_TO_IDR=18258.97;const rupiah=v=>new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(v*USD_TO_IDR);
+const API_BASE='https://pro-smm-live-api.onrender.com',platform=document.getElementById('platform'), service=document.getElementById('service'), qty=document.getElementById('quantity'), total=document.getElementById('total');const USD_TO_IDR=18258.97;const rupiah=v=>new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(v*USD_TO_IDR);let accessToken=localStorage.getItem('pro_smm_access_token')||'';
 let syncedServices=[];
-function calc(){const rate=Number(service.value)||0;total.textContent=`${rupiah(rate)} / 1.000`}
+function calc(){const rate=Number(service.selectedOptions[0]?.dataset.rate||0);total.textContent=`${rupiah(rate)} / 1.000`}
 [platform,service,qty].forEach(el=>el.addEventListener('input',calc));calc();
-function renderSyncedServices(){const selected=platform.value.toLowerCase();const list=syncedServices.filter(x=>new RegExp(selected,'i').test(`${x.category||''} ${x.name||''}`));service.innerHTML=list.slice(0,500).map(x=>{const name=x.name||x.service||x.title||'Peakerr service';const rate=Number(x.rate||x.price||0);return `<option value="${rate}">${name} — ${x.category||x.type||'SMM'} — ${rupiah(rate)}/1k</option>`}).join('')||'<option value="0">Tidak ada layanan</option>';const note=document.querySelector('.notice');if(note)note.textContent=`Harga Rupiah tersinkron dari API Peakerr: ${list.length.toLocaleString('id-ID')} layanan ${platform.value}. Kurs tampilan: 1 USD = Rp18.258,97.`;calc()}
-fetch('./data/services.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(items=>{
+function renderSyncedServices(){const selected=platform.value.toLowerCase();const list=syncedServices.filter(x=>new RegExp(selected,'i').test(`${x.category||''} ${x.name||''}`));service.innerHTML=list.slice(0,500).map(x=>{const name=x.name||x.service||x.title||'Peakerr service';const rate=Number(x.rate||x.price||0);return `<option value="${x.service}" data-rate="${rate}">${name} — ${x.category||x.type||'SMM'} — ${rupiah(rate)}/1k</option>`}).join('')||'<option value="0" data-rate="0">Tidak ada layanan</option>';const note=document.querySelector('.notice');if(note)note.textContent=`Harga Rupiah tersinkron dari API Peakerr: ${list.length.toLocaleString('id-ID')} layanan ${platform.value}. Kurs tampilan: 1 USD = Rp18.258,97.`;calc()}
+async function auth(mode){const email=prompt('Email Supabase:');const password=prompt('Password (minimal 6 karakter):');if(!email||!password)return;const r=await fetch(`${API_BASE}/api/auth/${mode}`,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({email,password})});const data=await r.json();if(!r.ok){alert(data.error||'Autentikasi gagal.');return}if(data.session?.access_token){accessToken=data.session.access_token;localStorage.setItem('pro_smm_access_token',accessToken);alert('Login berhasil. Pesanan live siap dikirim.')}else alert(data.message||'Cek email untuk konfirmasi akun.')}
+function login(){auth('signin')}function register(){auth('signup')}
+fetch(`${API_BASE}/api/services`,{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(payload=>{
+  const items=payload.services||[];
   if(!Array.isArray(items)||!items.length)return;
   syncedServices=items.filter(x=>/facebook|youtube/i.test(`${x.category||''} ${x.name||''}`));
   renderSyncedServices();
 }).catch(()=>{});
 platform.addEventListener('change',renderSyncedServices);document.querySelectorAll('.platform').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.platform').forEach(x=>x.classList.remove('selected'));btn.classList.add('selected');platform.value=btn.dataset.platform;renderSyncedServices();document.getElementById('pesan').scrollIntoView({behavior:'smooth',block:'center'})}));
-document.getElementById('orderForm').addEventListener('submit',e=>{e.preventDefault();const link=document.getElementById('url').value;const n=Number(qty.value);if(!/^https?:\/\//i.test(link)){alert('Masukkan tautan yang diawali http:// atau https://');return}if(n<1||n>1000000){alert('Jumlah harus antara 1 sampai 1.000.000');return}const id='PSM'+Date.now().toString().slice(-7);const tr=document.createElement('tr');[id,platform.value+' • '+service.options[service.selectedIndex].text,n.toLocaleString('id-ID')].forEach(v=>{const td=document.createElement('td');td.textContent=v;tr.appendChild(td)});const td=document.createElement('td');td.innerHTML='<span class="status pending">Demo</span>';tr.appendChild(td);const body=document.getElementById('orders');if(body.querySelector('.empty'))body.innerHTML='';body.prepend(tr);alert('Pesanan demo berhasil ditambahkan ke tabel. Untuk pemrosesan nyata, hubungkan backend dan API supplier.')});
+document.getElementById('orderForm').addEventListener('submit',async e=>{e.preventDefault();const link=document.getElementById('url').value;const n=Number(qty.value);if(!accessToken){alert('Silakan klik Masuk terlebih dahulu.');return}if(!/^https?:\/\//i.test(link)){alert('Masukkan tautan yang diawali http:// atau https://');return}if(n<1||n>1000000){alert('Jumlah harus antara 1 sampai 1.000.000');return}const r=await fetch(`${API_BASE}/api/orders`,{method:'POST',headers:{'content-type':'application/json',authorization:`Bearer ${accessToken}`},body:JSON.stringify({service:service.value,link,quantity:n})});const data=await r.json();if(!r.ok){alert(data.error||'Order gagal dikirim.');return}const id=data.result?.order||data.result?.order_id||'LIVE';const tr=document.createElement('tr');[id,platform.value+' • '+service.options[service.selectedIndex].text,n.toLocaleString('id-ID')].forEach(v=>{const td=document.createElement('td');td.textContent=v;tr.appendChild(td)});const td=document.createElement('td');td.innerHTML='<span class="status process">Dikirim</span>';tr.appendChild(td);const body=document.getElementById('orders');if(body.querySelector('.empty'))body.innerHTML='';body.prepend(tr);alert(`Order live berhasil dikirim ke Peakerr. ID: ${id}`)});
 </script>
 </body>
 </html>
