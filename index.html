@@ -62,14 +62,10 @@ footer{margin-top:30px;border-color:#dbe3f2;color:#7180a2;padding:18px 0}.foot s
  <div class="benefit"><span class="ico">♧</span><div><b>Dukungan Pelanggan</b><small>Bantuan saat diperlukan</small></div></div>
 </section>
 <section class="section" id="layanan">
- <div class="section-head"><div><h2>Layanan Populer</h2><p>Pilih platform untuk melihat kategori layanan.</p></div><a class="btn" href="#pesan" style="text-decoration:none">Buat Pesanan →</a></div>
+ <div class="section-head"><div><h2>Layanan Populer</h2><p>Sementara tersedia untuk Facebook dan YouTube.</p></div><a class="btn" href="#pesan" style="text-decoration:none">Lihat Harga →</a></div>
  <div class="platforms">
-  <button class="platform selected" data-platform="Instagram"><span class="picon">📸</span><span><b>Instagram</b><small>Views • Likes • Followers</small></span></button>
   <button class="platform" data-platform="YouTube"><span class="picon">▶️</span><span><b>YouTube</b><small>Views • Likes • Subscribers</small></span></button>
-  <button class="platform" data-platform="TikTok"><span class="picon">🎵</span><span><b>TikTok</b><small>Views • Likes • Followers</small></span></button>
-  <button class="platform" data-platform="Facebook"><span class="picon">f</span><span><b>Facebook</b><small>Views • Likes • Followers</small></span></button>
-  <button class="platform" data-platform="Telegram"><span class="picon">➤</span><span><b>Telegram</b><small>Members • Views</small></span></button>
-  <button class="platform" data-platform="X"><span class="picon">𝕏</span><span><b>X</b><small>Followers • Likes</small></span></button>
+  <button class="platform selected" data-platform="Facebook"><span class="picon">f</span><span><b>Facebook</b><small>Views • Likes • Followers</small></span></button>
  </div>
 </section>
 <section class="section workarea" id="pesan">
@@ -77,11 +73,11 @@ footer{margin-top:30px;border-color:#dbe3f2;color:#7180a2;padding:18px 0}.foot s
   <div class="panel-title"><span class="symbol">🛒</span><div><h3>Buat Pesanan Baru</h3><p>Isi formulir untuk membuat simulasi pesanan.</p></div></div>
   <form id="orderForm">
    <div class="formgrid">
-    <div class="field"><label for="platform">Pilih Platform</label><select id="platform"><option>Instagram</option><option>YouTube</option><option>TikTok</option><option>Facebook</option><option>Telegram</option><option>X</option></select></div>
+    <div class="field"><label for="platform">Pilih Platform</label><select id="platform"><option>Facebook</option><option>YouTube</option></select></div>
     <div class="field"><label for="service">Pilih Layanan</label><select id="service"><option value="12000">Followers / Subscribers</option><option value="5000">Likes</option><option value="1500">Views</option></select></div>
     <div class="field" style="grid-column:1/-1"><label for="url">Tautan Konten / Profil</label><input id="url" type="url" placeholder="https://..." required></div>
     <div class="field"><label for="quantity">Jumlah</label><input id="quantity" type="number" min="1" max="1000000" value="1000" required></div>
-    <div class="field"><label>Estimasi biaya</label><div class="estimate" style="margin:0"><small>Total</small><strong id="total">Rp 12.000</strong></div></div>
+    <div class="field"><label>Harga dari API Peakerr</label><div class="estimate" style="margin:0"><small>Rate / 1.000</small><strong id="total">$0.0000</strong></div></div>
    </div>
    <button class="submit" type="submit">➤ Buat Pesanan</button>
    <p class="notice">Demo antarmuka: pesanan belum dikirim ke supplier. Hubungkan backend/API untuk transaksi nyata.</p>
@@ -98,15 +94,16 @@ footer{margin-top:30px;border-color:#dbe3f2;color:#7180a2;padding:18px 0}.foot s
 <footer id="bantuan"><div class="wrap foot"><div><strong>◈ PRO SMM</strong><br><small>All Social Media Services in One Panel.</small></div><div>© 2026 PRO SMM. Semua hak dilindungi.</div><div>Keamanan • Transparansi • Dukungan</div></div></footer>
 <script>
 const platform=document.getElementById('platform'), service=document.getElementById('service'), qty=document.getElementById('quantity'), total=document.getElementById('total');
-function calc(){const n=Math.max(0,Number(qty.value)||0);total.textContent=new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(n*Number(service.value)/1000)}
+let syncedServices=[];
+function calc(){const rate=Number(service.value)||0;total.textContent=`$${rate.toFixed(4)} / 1.000`}
 [platform,service,qty].forEach(el=>el.addEventListener('input',calc));calc();
+function renderSyncedServices(){const selected=platform.value.toLowerCase();const list=syncedServices.filter(x=>new RegExp(selected,'i').test(`${x.category||''} ${x.name||''}`));service.innerHTML=list.slice(0,500).map(x=>{const name=x.name||x.service||x.title||'Peakerr service';const rate=Number(x.rate||x.price||0);return `<option value="${rate}">${name} — ${x.category||x.type||'SMM'} — $${rate.toFixed(4)}/1k</option>`}).join('')||'<option value="0">Tidak ada layanan</option>';const note=document.querySelector('.notice');if(note)note.textContent=`Harga tersinkron dari API Peakerr: ${list.length.toLocaleString('id-ID')} layanan ${platform.value}.`;calc()}
 fetch('./data/services.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(items=>{
   if(!Array.isArray(items)||!items.length)return;
-  service.innerHTML=items.slice(0,500).map(x=>{const name=x.name||x.service||x.title||'Peakerr service';const rate=Number(x.rate||x.price||0);return `<option value="${rate}">${name} — ${x.category||x.type||'SMM'}</option>`}).join('');
-  const note=document.querySelector('.notice'); if(note)note.textContent=`Katalog Peakerr aktif: ${items.length.toLocaleString('id-ID')} layanan. Pesanan demo belum dikirim ke supplier.`;
-  calc();
+  syncedServices=items.filter(x=>/facebook|youtube/i.test(`${x.category||''} ${x.name||''}`));
+  renderSyncedServices();
 }).catch(()=>{});
-document.querySelectorAll('.platform').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.platform').forEach(x=>x.classList.remove('selected'));btn.classList.add('selected');platform.value=btn.dataset.platform;document.getElementById('pesan').scrollIntoView({behavior:'smooth',block:'center'})}));
+platform.addEventListener('change',renderSyncedServices);document.querySelectorAll('.platform').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.platform').forEach(x=>x.classList.remove('selected'));btn.classList.add('selected');platform.value=btn.dataset.platform;renderSyncedServices();document.getElementById('pesan').scrollIntoView({behavior:'smooth',block:'center'})}));
 document.getElementById('orderForm').addEventListener('submit',e=>{e.preventDefault();const link=document.getElementById('url').value;const n=Number(qty.value);if(!/^https?:\/\//i.test(link)){alert('Masukkan tautan yang diawali http:// atau https://');return}if(n<1||n>1000000){alert('Jumlah harus antara 1 sampai 1.000.000');return}const id='PSM'+Date.now().toString().slice(-7);const tr=document.createElement('tr');[id,platform.value+' • '+service.options[service.selectedIndex].text,n.toLocaleString('id-ID')].forEach(v=>{const td=document.createElement('td');td.textContent=v;tr.appendChild(td)});const td=document.createElement('td');td.innerHTML='<span class="status pending">Demo</span>';tr.appendChild(td);const body=document.getElementById('orders');if(body.querySelector('.empty'))body.innerHTML='';body.prepend(tr);alert('Pesanan demo berhasil ditambahkan ke tabel. Untuk pemrosesan nyata, hubungkan backend dan API supplier.')});
 </script>
 </body>
