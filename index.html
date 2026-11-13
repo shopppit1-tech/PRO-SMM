@@ -77,7 +77,7 @@ footer{margin-top:30px;border-color:#dbe3f2;color:#7180a2;padding:18px 0}.foot s
     <div class="field"><label for="service">Pilih Layanan</label><select id="service"><option value="12000">Followers / Subscribers</option><option value="5000">Likes</option><option value="1500">Views</option></select></div>
     <div class="field" style="grid-column:1/-1"><label for="url">Tautan Konten / Profil</label><input id="url" type="url" placeholder="https://..." required></div>
     <div class="field"><label for="quantity">Jumlah</label><input id="quantity" type="number" min="1" max="1000000" value="1000" required></div>
-    <div class="field"><label>Harga dari API Peakerr</label><div class="estimate" style="margin:0"><small>Rate / 1.000</small><strong id="total">$0.0000</strong></div></div>
+    <div class="field"><label>Harga dari API Peakerr</label><div class="estimate" style="margin:0"><small>Rate / 1.000</small><strong id="total">Rp 0</strong></div></div>
    </div>
    <button class="submit" type="submit">➤ Buat Pesanan</button>
    <p class="notice">Demo antarmuka: pesanan belum dikirim ke supplier. Hubungkan backend/API untuk transaksi nyata.</p>
@@ -93,11 +93,11 @@ footer{margin-top:30px;border-color:#dbe3f2;color:#7180a2;padding:18px 0}.foot s
 </main>
 <footer id="bantuan"><div class="wrap foot"><div><strong>◈ PRO SMM</strong><br><small>All Social Media Services in One Panel.</small></div><div>© 2026 PRO SMM. Semua hak dilindungi.</div><div>Keamanan • Transparansi • Dukungan</div></div></footer>
 <script>
-const platform=document.getElementById('platform'), service=document.getElementById('service'), qty=document.getElementById('quantity'), total=document.getElementById('total');
+const platform=document.getElementById('platform'), service=document.getElementById('service'), qty=document.getElementById('quantity'), total=document.getElementById('total');const USD_TO_IDR=18258.97;const rupiah=v=>new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(v*USD_TO_IDR);
 let syncedServices=[];
-function calc(){const rate=Number(service.value)||0;total.textContent=`$${rate.toFixed(4)} / 1.000`}
+function calc(){const rate=Number(service.value)||0;total.textContent=`${rupiah(rate)} / 1.000`}
 [platform,service,qty].forEach(el=>el.addEventListener('input',calc));calc();
-function renderSyncedServices(){const selected=platform.value.toLowerCase();const list=syncedServices.filter(x=>new RegExp(selected,'i').test(`${x.category||''} ${x.name||''}`));service.innerHTML=list.slice(0,500).map(x=>{const name=x.name||x.service||x.title||'Peakerr service';const rate=Number(x.rate||x.price||0);return `<option value="${rate}">${name} — ${x.category||x.type||'SMM'} — $${rate.toFixed(4)}/1k</option>`}).join('')||'<option value="0">Tidak ada layanan</option>';const note=document.querySelector('.notice');if(note)note.textContent=`Harga tersinkron dari API Peakerr: ${list.length.toLocaleString('id-ID')} layanan ${platform.value}.`;calc()}
+function renderSyncedServices(){const selected=platform.value.toLowerCase();const list=syncedServices.filter(x=>new RegExp(selected,'i').test(`${x.category||''} ${x.name||''}`));service.innerHTML=list.slice(0,500).map(x=>{const name=x.name||x.service||x.title||'Peakerr service';const rate=Number(x.rate||x.price||0);return `<option value="${rate}">${name} — ${x.category||x.type||'SMM'} — ${rupiah(rate)}/1k</option>`}).join('')||'<option value="0">Tidak ada layanan</option>';const note=document.querySelector('.notice');if(note)note.textContent=`Harga Rupiah tersinkron dari API Peakerr: ${list.length.toLocaleString('id-ID')} layanan ${platform.value}. Kurs tampilan: 1 USD = Rp18.258,97.`;calc()}
 fetch('./data/services.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(items=>{
   if(!Array.isArray(items)||!items.length)return;
   syncedServices=items.filter(x=>/facebook|youtube/i.test(`${x.category||''} ${x.name||''}`));
