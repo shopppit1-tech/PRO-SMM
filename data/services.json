@@ -1,5 +1,29 @@
 [
   {
+    "service": 36827,
+    "name": "TikTok Video Views | Speed 2M/D",
+    "type": "Default",
+    "rate": "0.0096",
+    "min": 100,
+    "max": 2147483647,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok Views"
+  },
+  {
+    "service": 36818,
+    "name": "TikTok Video Views | Slow Speed | Speed 500K/D",
+    "type": "Default",
+    "rate": "0.0114",
+    "min": 100,
+    "max": 2147483647,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok Views"
+  },
+  {
     "service": 36816,
     "name": "TikTok Video Views | Instant Fast! | Speed 1M/D",
     "type": "Default",
@@ -24,10 +48,22 @@
     "category": "TikTok Views"
   },
   {
-    "service": 36818,
-    "name": "TikTok Video Views | Slow Speed | Speed 500K/D",
+    "service": 36830,
+    "name": "TikTok Video Views | Instant! | Speed 2M/D",
     "type": "Default",
-    "rate": "0.0114",
+    "rate": "0.0308",
+    "min": 100,
+    "max": 1000000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok Views"
+  },
+  {
+    "service": 36828,
+    "name": "TikTok Video Views | Instant! | Speed 1M/D",
+    "type": "Default",
+    "rate": "0.0318",
     "min": 100,
     "max": 2147483647,
     "dripfeed": false,
@@ -48,10 +84,22 @@
     "category": "TikTok Views"
   },
   {
-    "service": 36820,
-    "name": "TikTok Video Views | Instant Fast! | Speed 2M/D",
+    "service": 36831,
+    "name": "TikTok Video Views | Instant Fast! | Speed 1M/D",
     "type": "Default",
-    "rate": "0.1038",
+    "rate": "0.0569",
+    "min": 100,
+    "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok Views"
+  },
+  {
+    "service": 36834,
+    "name": "TikTok Video Views | Speed 2M/D",
+    "type": "Default",
+    "rate": "0.0784",
     "min": 100,
     "max": 2147483647,
     "dripfeed": false,
@@ -60,10 +108,22 @@
     "category": "TikTok Views"
   },
   {
-    "service": 36821,
-    "name": "TikTok Video Views | Instant! | Speed 2M/D",
+    "service": 36836,
+    "name": "TikTok Video Views | Instant!",
     "type": "Default",
-    "rate": "0.14",
+    "rate": "0.0896",
+    "min": 100,
+    "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok Views"
+  },
+  {
+    "service": 36820,
+    "name": "TikTok Video Views | Instant Fast! | Speed 2M/D",
+    "type": "Default",
+    "rate": "0.1038",
     "min": 100,
     "max": 2147483647,
     "dripfeed": false,
@@ -78,30 +138,6 @@
     "rate": "0.1202",
     "min": 100,
     "max": 4000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok Views"
-  },
-  {
-    "service": 36823,
-    "name": "TikTok Video Views | Instant | Speed 5M/D | 60D Refill ♻️",
-    "type": "Default",
-    "rate": "0.1349",
-    "min": 100,
-    "max": 2147483647,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok Views"
-  },
-  {
-    "service": 36824,
-    "name": "TikTok Video Views | 100% Non Drop | 30 Days Refill ♻️ | 20K/Day",
-    "type": "Default",
-    "rate": "0.819",
-    "min": 1000,
-    "max": 150000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -132,10 +168,10 @@
     "category": "TikTok Views"
   },
   {
-    "service": 36827,
-    "name": "TikTok Video Views | Speed 2M/D",
+    "service": 36823,
+    "name": "TikTok Video Views | Instant | Speed 5M/D | 60D Refill ♻️",
     "type": "Default",
-    "rate": "0.0096",
+    "rate": "0.1349",
     "min": 100,
     "max": 2147483647,
     "dripfeed": false,
@@ -144,48 +180,12 @@
     "category": "TikTok Views"
   },
   {
-    "service": 36828,
-    "name": "TikTok Video Views | Instant! | Speed 1M/D",
-    "type": "Default",
-    "rate": "0.0318",
-    "min": 100,
-    "max": 2147483647,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok Views"
-  },
-  {
-    "service": 36829,
-    "name": "TikTok Video Views | Instant Fast! | Speed 5M/D",
-    "type": "Default",
-    "rate": "0.1983",
-    "min": 100,
-    "max": 2147481274,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok Views"
-  },
-  {
-    "service": 36830,
+    "service": 36821,
     "name": "TikTok Video Views | Instant! | Speed 2M/D",
     "type": "Default",
-    "rate": "0.0308",
+    "rate": "0.14",
     "min": 100,
-    "max": 1000000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok Views"
-  },
-  {
-    "service": 36831,
-    "name": "TikTok Video Views | Instant Fast! | Speed 1M/D",
-    "type": "Default",
-    "rate": "0.0569",
-    "min": 100,
-    "max": 1000000,
+    "max": 2147483647,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -204,30 +204,6 @@
     "category": "TikTok Views"
   },
   {
-    "service": 36833,
-    "name": "TikTok Video Views | Instant Fast! | Speed 1M/D",
-    "type": "Default",
-    "rate": "0.1826",
-    "min": 100,
-    "max": 10000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok Views"
-  },
-  {
-    "service": 36834,
-    "name": "TikTok Video Views | Speed 2M/D",
-    "type": "Default",
-    "rate": "0.0784",
-    "min": 100,
-    "max": 2147483647,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok Views"
-  },
-  {
     "service": 36835,
     "name": "TikTok Video Views | Instant Fast! | Speed 500K/D",
     "type": "Default",
@@ -240,12 +216,24 @@
     "category": "TikTok Views"
   },
   {
-    "service": 36836,
-    "name": "TikTok Video Views | Instant!",
+    "service": 36833,
+    "name": "TikTok Video Views | Instant Fast! | Speed 1M/D",
     "type": "Default",
-    "rate": "0.0896",
+    "rate": "0.1826",
     "min": 100,
-    "max": 1000000,
+    "max": 10000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok Views"
+  },
+  {
+    "service": 36829,
+    "name": "TikTok Video Views | Instant Fast! | Speed 5M/D",
+    "type": "Default",
+    "rate": "0.1983",
+    "min": 100,
+    "max": 2147481274,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -258,6 +246,18 @@
     "rate": "0.28",
     "min": 100,
     "max": 10000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok Views"
+  },
+  {
+    "service": 36824,
+    "name": "TikTok Video Views | 100% Non Drop | 30 Days Refill ♻️ | 20K/Day",
+    "type": "Default",
+    "rate": "0.819",
+    "min": 1000,
+    "max": 150000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -336,30 +336,6 @@
     "category": "TikTok | Combo"
   },
   {
-    "service": 36808,
-    "name": "100% Tiktok Views + 40% Likes",
-    "type": "Default",
-    "rate": "0.574",
-    "min": 200,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
-    "category": "TikTok | Combo"
-  },
-  {
-    "service": 36809,
-    "name": "100% Tiktok Views + 100% Likes",
-    "type": "Default",
-    "rate": "1.26",
-    "min": 200,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
-    "category": "TikTok | Combo"
-  },
-  {
     "service": 36810,
     "name": "100% Tiktok Views + 10% Likes + 1% Real Humans Comments",
     "type": "Default",
@@ -376,6 +352,18 @@
     "name": "100% Tiktok Views + 20% Likes + 2% Real Humans Comments",
     "type": "Default",
     "rate": "0.546",
+    "min": 200,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
+    "category": "TikTok | Combo"
+  },
+  {
+    "service": 36808,
+    "name": "100% Tiktok Views + 40% Likes",
+    "type": "Default",
+    "rate": "0.574",
     "min": 200,
     "max": 100000,
     "dripfeed": false,
@@ -412,6 +400,18 @@
     "name": "100% Tiktok Views + 50% Likes + 5% Real Humans Comments",
     "type": "Default",
     "rate": "1.218",
+    "min": 200,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
+    "category": "TikTok | Combo"
+  },
+  {
+    "service": 36809,
+    "name": "100% Tiktok Views + 100% Likes",
+    "type": "Default",
+    "rate": "1.26",
     "min": 200,
     "max": 100000,
     "dripfeed": false,
@@ -528,6 +528,18 @@
     "category": "NEW! Instagram | Views Combo"
   },
   {
+    "service": 36797,
+    "name": "Instagram | 100% Views + 10% Likes + 2% Comments",
+    "type": "Default",
+    "rate": "0.91",
+    "min": 100,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
+    "category": "NEW! Instagram | Views Combo"
+  },
+  {
     "service": 36795,
     "name": "Instagram | 100% Views + 90% Likes",
     "type": "Default",
@@ -545,18 +557,6 @@
     "type": "Default",
     "rate": "1.106",
     "min": 1000,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
-    "category": "NEW! Instagram | Views Combo"
-  },
-  {
-    "service": 36797,
-    "name": "Instagram | 100% Views + 10% Likes + 2% Comments",
-    "type": "Default",
-    "rate": "0.91",
-    "min": 100,
     "max": 100000,
     "dripfeed": false,
     "refill": false,
@@ -852,6 +852,18 @@
     "category": "YouTube - Likes"
   },
   {
+    "service": 7594,
+    "name": "Youtube - Likes | MQ 100K | 0-1H | Speed 20K P/D | Fast | R30 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.945",
+    "min": 20,
+    "max": 5000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
+    "category": "YouTube - Likes"
+  },
+  {
     "service": 10802,
     "name": "Youtube - Likes | MQ 100K | Fast Speed 🔥🔥🔝",
     "type": "Default",
@@ -897,18 +909,6 @@
     "dripfeed": false,
     "refill": false,
     "cancel": true,
-    "category": "YouTube - Likes"
-  },
-  {
-    "service": 7594,
-    "name": "Youtube - Likes | MQ 100K | 0-1H | Speed 20K P/D | Fast | R30 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.945",
-    "min": 20,
-    "max": 5000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
     "category": "YouTube - Likes"
   },
   {
@@ -1188,24 +1188,24 @@
     "category": "Youtube Likes"
   },
   {
-    "service": 36666,
-    "name": "Youtube Video Like [75K] [Instant Superfast][30 Day Refill][No Drop]🔥",
-    "type": "Default",
-    "rate": "6.86",
-    "min": 10,
-    "max": 75000,
-    "dripfeed": false,
-    "refill": true,
-    "cancel": true,
-    "category": "Youtube Likes"
-  },
-  {
     "service": 36669,
     "name": "Youtube Video Like [175K] [Instant Superfast][Non Drop] [30 Day Refill] 🔥",
     "type": "Default",
     "rate": "5.95",
     "min": 10,
     "max": 175000,
+    "dripfeed": false,
+    "refill": true,
+    "cancel": true,
+    "category": "Youtube Likes"
+  },
+  {
+    "service": 36666,
+    "name": "Youtube Video Like [75K] [Instant Superfast][30 Day Refill][No Drop]🔥",
+    "type": "Default",
+    "rate": "6.86",
+    "min": 10,
+    "max": 75000,
     "dripfeed": false,
     "refill": true,
     "cancel": true,
@@ -1536,10 +1536,10 @@
     "category": "Instagram Brazil [Followers]"
   },
   {
-    "service": 35776,
-    "name": "Instagram Brazil Followers [10+ Posts] [30 Days Refill] [50K/D] [0-1/H] [Faster]",
+    "service": 35772,
+    "name": "Instagram Followers [Brazil Females]",
     "type": "Default",
-    "rate": "5.1072",
+    "rate": "4.8384",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -1548,10 +1548,10 @@
     "category": "Instagram Brazil [Followers]"
   },
   {
-    "service": 35772,
-    "name": "Instagram Followers [Brazil Females]",
+    "service": 35776,
+    "name": "Instagram Brazil Followers [10+ Posts] [30 Days Refill] [50K/D] [0-1/H] [Faster]",
     "type": "Default",
-    "rate": "4.8384",
+    "rate": "5.1072",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -3504,18 +3504,6 @@
     "category": "Facebook Followers [Fastest Speed]"
   },
   {
-    "service": 32134,
-    "name": "Facebook Followers [100K/D] [Instant]",
-    "type": "Default",
-    "rate": "0.2904",
-    "min": 50,
-    "max": 500000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Facebook Reactions + Followers [Extreme Speed]"
-  },
-  {
     "service": 32127,
     "name": "Facebook Love Reactions [100K/D] [Instant]",
     "type": "Default",
@@ -3585,6 +3573,18 @@
     "dripfeed": false,
     "refill": false,
     "cancel": false,
+    "category": "Facebook Reactions + Followers [Extreme Speed]"
+  },
+  {
+    "service": 32134,
+    "name": "Facebook Followers [100K/D] [Instant]",
+    "type": "Default",
+    "rate": "0.2904",
+    "min": 50,
+    "max": 500000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
     "category": "Facebook Reactions + Followers [Extreme Speed]"
   },
   {
@@ -3828,10 +3828,10 @@
     "category": "Instagram USA [Provider] [Refill]"
   },
   {
-    "service": 33488,
-    "name": "Facebook Followers | Low Drop | Day 10K | No Refill",
+    "service": 32092,
+    "name": "Facebook Followers | Low Drop | Day 20K | No Refill",
     "type": "Default",
-    "rate": "0.2016",
+    "rate": "0.1479",
     "min": 50,
     "max": 500000,
     "dripfeed": false,
@@ -3840,10 +3840,10 @@
     "category": "Facebook Followers [Cheapest]"
   },
   {
-    "service": 32092,
-    "name": "Facebook Followers | Low Drop | Day 20K | No Refill",
+    "service": 33488,
+    "name": "Facebook Followers | Low Drop | Day 10K | No Refill",
     "type": "Default",
-    "rate": "0.1479",
+    "rate": "0.2016",
     "min": 50,
     "max": 500000,
     "dripfeed": false,
@@ -5820,6 +5820,18 @@
     "category": "Instagram Likes"
   },
   {
+    "service": 30297,
+    "name": "Instagram Likes [Max: 10K] [Refill: No] [Start Time: 0 - 1 Hour] [Speed: 10K/Hour] 💧",
+    "type": "Default",
+    "rate": "0.1575",
+    "min": 10,
+    "max": 300000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram Likes"
+  },
+  {
     "service": 30776,
     "name": "Instagram - Likes",
     "type": "Default",
@@ -5841,6 +5853,30 @@
     "dripfeed": false,
     "refill": false,
     "cancel": false,
+    "category": "Instagram Likes"
+  },
+  {
+    "service": 30348,
+    "name": "Instagram Likes [EMERGENCY] [Max: 50K] [Start Time: 0-1 Hour] [Speed: 10/Day ]",
+    "type": "Default",
+    "rate": "0.182",
+    "min": 10,
+    "max": 5000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram Likes"
+  },
+  {
+    "service": 30777,
+    "name": "Instagram - Likes",
+    "type": "Default",
+    "rate": "0.21",
+    "min": 10,
+    "max": 300000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
     "category": "Instagram Likes"
   },
   {
@@ -5880,12 +5916,24 @@
     "category": "Instagram Likes"
   },
   {
-    "service": 30297,
-    "name": "Instagram Likes [Max: 10K] [Refill: No] [Start Time: 0 - 1 Hour] [Speed: 10K/Hour] 💧",
+    "service": 30280,
+    "name": "Instagram Likes [HQ] [Refill: No] [Max: 300K] [Start Time: 0-1 Hr] [Speed: 25k/D] 💧⛔",
     "type": "Default",
-    "rate": "0.1575",
+    "rate": "0.245",
     "min": 10,
-    "max": 300000,
+    "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram Likes"
+  },
+  {
+    "service": 30341,
+    "name": "Instagram Likes [Refill: 365 Days] [Max: 10K] [Start Time: 0-1 Hours] [Speed: 10K/Day] 💧⛔",
+    "type": "Default",
+    "rate": "0.2504",
+    "min": 10,
+    "max": 10000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -5916,54 +5964,6 @@
     "category": "Instagram Likes"
   },
   {
-    "service": 30777,
-    "name": "Instagram - Likes",
-    "type": "Default",
-    "rate": "0.21",
-    "min": 10,
-    "max": 300000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram Likes"
-  },
-  {
-    "service": 30348,
-    "name": "Instagram Likes [EMERGENCY] [Max: 50K] [Start Time: 0-1 Hour] [Speed: 10/Day ]",
-    "type": "Default",
-    "rate": "0.182",
-    "min": 10,
-    "max": 5000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram Likes"
-  },
-  {
-    "service": 30338,
-    "name": "Instagram Likes [NON DROP] [Max: 8K] [Start Time: 0-1 Hour] [Speed: 8K/Day] 💧🔥🔥",
-    "type": "Default",
-    "rate": "0.3416",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram Likes"
-  },
-  {
-    "service": 30275,
-    "name": "Instagram Likes [Refill: 30D] [Max: 1.5M] [Start Time: 0 - 1 Hr] [Speed: Up to 100K/D] ⛔💧",
-    "type": "Default",
-    "rate": "0.35",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram Likes"
-  },
-  {
     "service": 30294,
     "name": "Instagram Likes [WITH CANCELATION] [Max: 5K] [Start Time: 0-1 Hour] [Speed: INSTANT] 💧⚡⛔🔥",
     "type": "Default",
@@ -5988,10 +5988,10 @@
     "category": "Instagram Likes"
   },
   {
-    "service": 30280,
-    "name": "Instagram Likes [HQ] [Refill: No] [Max: 300K] [Start Time: 0-1 Hr] [Speed: 25k/D] 💧⛔",
+    "service": 30338,
+    "name": "Instagram Likes [NON DROP] [Max: 8K] [Start Time: 0-1 Hour] [Speed: 8K/Day] 💧🔥🔥",
     "type": "Default",
-    "rate": "0.245",
+    "rate": "0.3246",
     "min": 10,
     "max": 1000000,
     "dripfeed": false,
@@ -6000,12 +6000,12 @@
     "category": "Instagram Likes"
   },
   {
-    "service": 30341,
-    "name": "Instagram Likes [Refill: 365 Days] [Max: 10K] [Start Time: 0-1 Hours] [Speed: 10K/Day] 💧⛔",
+    "service": 30275,
+    "name": "Instagram Likes [Refill: 30D] [Max: 1.5M] [Start Time: 0 - 1 Hr] [Speed: Up to 100K/D] ⛔💧",
     "type": "Default",
-    "rate": "0.2504",
+    "rate": "0.3325",
     "min": 10,
-    "max": 10000000,
+    "max": 1000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -6048,30 +6048,6 @@
     "category": "Instagram Likes"
   },
   {
-    "service": 30427,
-    "name": "Instagram Followers [ Max 10K ] | 100% Real Accounts with Posts | Drop 20-30% | No Refill ⚠️ | Instant Start | Day 10K",
-    "type": "Default",
-    "rate": "0.651",
-    "min": 100,
-    "max": 50000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram Followers [ Best Price ] ᴺᴱᵂ"
-  },
-  {
-    "service": 30428,
-    "name": "Instagram Followers [ Max 1M ] | 100% Real Accounts with Posts | Drop 20-30% | No Refill ⚠️ | Instant Start | Day 50K",
-    "type": "Default",
-    "rate": "0.798",
-    "min": 100,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram Followers [ Best Price ] ᴺᴱᵂ"
-  },
-  {
     "service": 31245,
     "name": "Instagram Followers [ Max 100K ] | 100% Real Accounts | Cancel Enable | Low Drop | No Refill ⚠️ | Instant Start | Day 50K 🚀 ᴺᴱᵂ",
     "type": "Default",
@@ -6084,10 +6060,34 @@
     "category": "Instagram Followers [ Best Price ] ᴺᴱᵂ"
   },
   {
+    "service": 30427,
+    "name": "Instagram Followers [ Max 10K ] | 100% Real Accounts with Posts | Drop 20-30% | No Refill ⚠️ | Instant Start | Day 10K",
+    "type": "Default",
+    "rate": "0.651",
+    "min": 100,
+    "max": 50000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram Followers [ Best Price ] ᴺᴱᵂ"
+  },
+  {
     "service": 31246,
     "name": "Instagram Followers [ Max 1M ] | 100% Real Accounts | Cancel Enable | Low Drop | No Refill ⚠️ | Instant Start | Day 100K 🚀 ᴺᴱᵂ",
     "type": "Default",
     "rate": "0.70",
+    "min": 100,
+    "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram Followers [ Best Price ] ᴺᴱᵂ"
+  },
+  {
+    "service": 30428,
+    "name": "Instagram Followers [ Max 1M ] | 100% Real Accounts with Posts | Drop 20-30% | No Refill ⚠️ | Instant Start | Day 50K",
+    "type": "Default",
+    "rate": "0.798",
     "min": 100,
     "max": 1000000,
     "dripfeed": false,
@@ -6840,24 +6840,24 @@
     "category": "TikTok [ Provider ]"
   },
   {
-    "service": 19694,
-    "name": "TikTok - Likes | MQ 5K🔝",
-    "type": "Default",
-    "rate": "0.63",
-    "min": 10,
-    "max": 500000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok [ Provider ]"
-  },
-  {
     "service": 19696,
     "name": "TikTok - Shares | MQ 10M🔝",
     "type": "Default",
     "rate": "0.35",
     "min": 10,
     "max": 10000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok [ Provider ]"
+  },
+  {
+    "service": 19694,
+    "name": "TikTok - Likes | MQ 5K🔝",
+    "type": "Default",
+    "rate": "0.63",
+    "min": 10,
+    "max": 500000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -7143,7 +7143,7 @@
     "service": 14899,
     "name": "Tiktok - Followers | MQ 500K | Speed 5-6K P/D | SuperInstant🔥🔥🔝",
     "type": "Default",
-    "rate": "3.5766",
+    "rate": "3.5768",
     "min": 10,
     "max": 10000,
     "dripfeed": false,
@@ -7248,18 +7248,6 @@
     "category": "TikTok - Followers"
   },
   {
-    "service": 9098,
-    "name": "TikTok - Likes | MQ 100K | Speed 1K-2K P/D 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.7434",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
     "service": 24616,
     "name": "TikTok - Likes | MQ 100K | HQ Real Profiles | Day 100K | Ultra Fast🔝",
     "type": "Default",
@@ -7278,54 +7266,6 @@
     "rate": "0.336",
     "min": 10,
     "max": 100000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 6474,
-    "name": "TikTok - Likes | MQ 100K | 0-1 Hours 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.8643",
-    "min": 20,
-    "max": 50000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 6056,
-    "name": "TikTok - Likes | MQ 1K | 0-1 Hours 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.9681",
-    "min": 10,
-    "max": 10000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 15366,
-    "name": "TikTok - Likes | MQ 100K | SuperInstant | Speed 100K/Day 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.9683",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 4919,
-    "name": "TikTok - Likes | MQ 1K | 0-3Hours🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.679",
-    "min": 20,
-    "max": 10000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -7362,6 +7302,270 @@
     "rate": "0.378",
     "min": 10,
     "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 27145,
+    "name": "TikTok - Likes + Views | Brazil | Speed 45K/day",
+    "type": "Default",
+    "rate": "0.4186",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 13872,
+    "name": "TikTok - Likes | MQ 50K🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.42",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 19041,
+    "name": "TikTok - Likes + Views | MQ 100K | R30 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.427",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 4919,
+    "name": "TikTok - Likes | MQ 1K | 0-3Hours🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.7724",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 14432,
+    "name": "Tiktok - Likes | MQ 10K | 0-60 Min | Stable 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.679",
+    "min": 20,
+    "max": 10000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 18436,
+    "name": "TikTok - Likes | MQ 5K | Speed 5K in 1 Minute ❤️🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.686",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 24733,
+    "name": "TikTok - Likes | MQ 10M | HQ &amp; Real Profiles | Cancel Enable | Instant Start | Day 100K",
+    "type": "Default",
+    "rate": "0.70",
+    "min": 10,
+    "max": 10000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 19675,
+    "name": "TikTok - Likes | Brazil | MQ 100K | Speed 10K P/D | R30🔝",
+    "type": "Default",
+    "rate": "0.70",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": true,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 9098,
+    "name": "TikTok - Likes | MQ 100K | Speed 1K-2K P/D 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.7434",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 22419,
+    "name": "TikTok - Likes + Views |  Worldwide | MQ 10M | HQ + Real | Cancel Enable | Drop 0% | Speed 100K P/D 🔝",
+    "type": "Default",
+    "rate": "0.7462",
+    "min": 10,
+    "max": 10000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 22165,
+    "name": "Tiktok -  Likes | MQ 10M | Global | Speed 1K/ 30 Minutes | Non Drop | Cancel Button Enable | Ultra Fast | Refill Lifetime",
+    "type": "Default",
+    "rate": "0.7462",
+    "min": 10,
+    "max": 10000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 17790,
+    "name": "Tiktok - Likes | MQ 100K | Low Drop | Speed 100K/D | 0-1H 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.7796",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 13240,
+    "name": "Tiktok - Likes | MQ 10K | Instant | Speed 1K P/D | Low Drop | R30 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.7796",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 22217,
+    "name": "Tiktok - Likes | Global | MQ 10M | Speed 1K/ 30 Minutes | Refill Lifetime | Non Drop | Cancel Button Enable | Ultra Fast",
+    "type": "Default",
+    "rate": "0.8036",
+    "min": 10,
+    "max": 10000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 13242,
+    "name": "Tiktok - Likes | MQ 1K | Speed 500-2K P/D | R30 | 0-1Hour 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.8064",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 24798,
+    "name": "TikTok - Likes | MQ 100M | HQ &amp; Real Profiles | Cancel Enable | Non Drop | Instant Start | Day 200K",
+    "type": "Default",
+    "rate": "0.812",
+    "min": 10,
+    "max": 100000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 14335,
+    "name": "TikTok - Likes | MQ  5K | SuperInstant | Speed 5K/Day 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.812",
+    "min": 10,
+    "max": 90000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 8275,
+    "name": "TikTok - Likes | MQ 100K | Speed 1K P/Hour 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.84",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 6474,
+    "name": "TikTok - Likes | MQ 100K | 0-1 Hours 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.8643",
+    "min": 20,
+    "max": 50000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 17797,
+    "name": "Tiktok - Likes | MQ 50K | No Drop | High Quality | Speed 5-10K/D | 0-1/H | Smooth 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.9408",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 6056,
+    "name": "TikTok - Likes | MQ 1K | 0-1 Hours 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.9681",
+    "min": 10,
+    "max": 10000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 15366,
+    "name": "TikTok - Likes | MQ 100K | SuperInstant | Speed 100K/Day 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.9683",
+    "min": 10,
+    "max": 1000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -7416,262 +7620,10 @@
     "category": "TikTok - Likes"
   },
   {
-    "service": 27145,
-    "name": "TikTok - Likes + Views | Brazil | Speed 45K/day",
-    "type": "Default",
-    "rate": "0.4186",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 13872,
-    "name": "TikTok - Likes | MQ 50K🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.42",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 19041,
-    "name": "TikTok - Likes + Views | MQ 100K | R30 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.427",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 18436,
-    "name": "TikTok - Likes | MQ 5K | Speed 5K in 1 Minute ❤️🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.686",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
     "service": 14888,
     "name": "Tiktok - Likes | MQ 200K | 0-15 MIn | Instant 🔥🔥🔝",
     "type": "Default",
     "rate": "1.2039",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 14432,
-    "name": "Tiktok - Likes | MQ 10K | 0-60 Min | Stable 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.679",
-    "min": 20,
-    "max": 10000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 24798,
-    "name": "TikTok - Likes | MQ 100M | HQ &amp; Real Profiles | Cancel Enable | Non Drop | Instant Start | Day 200K",
-    "type": "Default",
-    "rate": "0.812",
-    "min": 10,
-    "max": 100000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 22046,
-    "name": "TikTok - Likes | WorldWide | MQ 10M | HQ+Real | Cancel Enable | Fast | Speed 100K P/D",
-    "type": "Default",
-    "rate": "1.4964",
-    "min": 10,
-    "max": 10000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 22419,
-    "name": "TikTok - Likes + Views |  Worldwide | MQ 10M | HQ + Real | Cancel Enable | Drop 0% | Speed 100K P/D 🔝",
-    "type": "Default",
-    "rate": "0.7462",
-    "min": 10,
-    "max": 10000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 22165,
-    "name": "Tiktok -  Likes | MQ 10M | Global | Speed 1K/ 30 Minutes | Non Drop | Cancel Button Enable | Ultra Fast | Refill Lifetime",
-    "type": "Default",
-    "rate": "0.7462",
-    "min": 10,
-    "max": 10000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 22183,
-    "name": "Tiktok - Likes | Global | MQ 10M | Speed 1K/ 30 Minutes | Refill Lifetime | Non Drop | Cancel Button Enable | Ultra Fast",
-    "type": "Default",
-    "rate": "3.325",
-    "min": 10,
-    "max": 10000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 8275,
-    "name": "TikTok - Likes | MQ 100K | Speed 1K P/Hour 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.84",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 22217,
-    "name": "Tiktok - Likes | Global | MQ 10M | Speed 1K/ 30 Minutes | Refill Lifetime | Non Drop | Cancel Button Enable | Ultra Fast",
-    "type": "Default",
-    "rate": "0.8036",
-    "min": 10,
-    "max": 10000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 24733,
-    "name": "TikTok - Likes | MQ 10M | HQ &amp; Real Profiles | Cancel Enable | Instant Start | Day 100K",
-    "type": "Default",
-    "rate": "0.70",
-    "min": 10,
-    "max": 10000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 19675,
-    "name": "TikTok - Likes | Brazil | MQ 100K | Speed 10K P/D | R30🔝",
-    "type": "Default",
-    "rate": "0.70",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": true,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 17790,
-    "name": "Tiktok - Likes | MQ 100K | Low Drop | Speed 100K/D | 0-1H 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.7796",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 13240,
-    "name": "Tiktok - Likes | MQ 10K | Instant | Speed 1K P/D | Low Drop | R30 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.7796",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 13242,
-    "name": "Tiktok - Likes | MQ 1K | Speed 500-2K P/D | R30 | 0-1Hour 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.8064",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 14335,
-    "name": "TikTok - Likes | MQ  5K | SuperInstant | Speed 5K/Day 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.812",
-    "min": 10,
-    "max": 90000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 19929,
-    "name": "TikTok - Likes | MQ 1M | Instant! | 10K/D | R30 🔥🔥🔝",
-    "type": "Default",
-    "rate": "1.54",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 17797,
-    "name": "Tiktok - Likes | MQ 50K | No Drop | High Quality | Speed 5-10K/D | 0-1/H | Smooth 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.9408",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 13088,
-    "name": "TikTok - Likes | MQ 500K | R30 | Speed 50K/D | Fast 🔥🔥🔝",
-    "type": "Default",
-    "rate": "1.6555",
     "min": 10,
     "max": 1000000,
     "dripfeed": false,
@@ -7692,84 +7644,12 @@
     "category": "TikTok - Likes"
   },
   {
-    "service": 15362,
-    "name": "TikTok - Likes | MQ 100K | SuperInstant | Speed 100K/Day 🔥🔥🔝",
+    "service": 22046,
+    "name": "TikTok - Likes | WorldWide | MQ 10M | HQ+Real | Cancel Enable | Fast | Speed 100K P/D",
     "type": "Default",
-    "rate": "1.9012",
+    "rate": "1.4964",
     "min": 10,
-    "max": 300000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 15368,
-    "name": "TikTok - Likes | MQ 100K | SuperInstant | Speed 70K/Day 🔥🔥🔝",
-    "type": "Default",
-    "rate": "1.9012",
-    "min": 10,
-    "max": 300000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 13085,
-    "name": "TikTok - Likes | MQ 500K | SuperInstant | Speed 150K P/D | Always Works 🔥🔥🔝",
-    "type": "Default",
-    "rate": "1.9012",
-    "min": 10,
-    "max": 300000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 14058,
-    "name": "TikTok - Likes | MQ 500K | Always Works | SuperInstant  | Speed 100K P/D 🔥🔥🔝",
-    "type": "Default",
-    "rate": "1.9012",
-    "min": 10,
-    "max": 300000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 10128,
-    "name": "TikTok - Likes | MQ 1K | Instant | R30 🔥🔥🔝",
-    "type": "Default",
-    "rate": "1.988",
-    "min": 10,
-    "max": 2000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 13125,
-    "name": "Tiktok Likes | MQ 200K | SuperInstant | Speed: 30K/Day | Always Works 🔥🔥🔝",
-    "type": "Default",
-    "rate": "2.1002",
-    "min": 10,
-    "max": 15000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Likes"
-  },
-  {
-    "service": 15365,
-    "name": "TikTok - Likes | MQ 200K | SuperInstant | Speed 100K/Day 🔥🔥🔝",
-    "type": "Default",
-    "rate": "4.1496",
-    "min": 10,
-    "max": 1000000,
+    "max": 10000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -7788,12 +7668,24 @@
     "category": "TikTok - Likes"
   },
   {
-    "service": 4160,
-    "name": "TikTok - Likes | MQ 60K | Instant🔥🔥🔝",
+    "service": 19929,
+    "name": "TikTok - Likes | MQ 1M | Instant! | 10K/D | R30 🔥🔥🔝",
     "type": "Default",
-    "rate": "2.836",
-    "min": 100,
-    "max": 10000,
+    "rate": "1.54",
+    "min": 10,
+    "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 13088,
+    "name": "TikTok - Likes | MQ 500K | R30 | Speed 50K/D | Fast 🔥🔥🔝",
+    "type": "Default",
+    "rate": "1.6557",
+    "min": 10,
+    "max": 1000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -7812,12 +7704,48 @@
     "category": "TikTok - Likes"
   },
   {
-    "service": 13126,
-    "name": "Tiktok - Likes | MQ 500K | SuperInstant | Speed 150K/Day | R30🔥🔥🔝",
+    "service": 15362,
+    "name": "TikTok - Likes | MQ 100K | SuperInstant | Speed 100K/Day 🔥🔥🔝",
     "type": "Default",
-    "rate": "2.4505",
+    "rate": "1.9011",
     "min": 10,
-    "max": 30000,
+    "max": 300000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 15368,
+    "name": "TikTok - Likes | MQ 100K | SuperInstant | Speed 70K/Day 🔥🔥🔝",
+    "type": "Default",
+    "rate": "1.9011",
+    "min": 10,
+    "max": 300000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 13085,
+    "name": "TikTok - Likes | MQ 500K | SuperInstant | Speed 150K P/D | Always Works 🔥🔥🔝",
+    "type": "Default",
+    "rate": "1.9011",
+    "min": 10,
+    "max": 300000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 14058,
+    "name": "TikTok - Likes | MQ 500K | Always Works | SuperInstant  | Speed 100K P/D 🔥🔥🔝",
+    "type": "Default",
+    "rate": "1.9011",
+    "min": 10,
+    "max": 300000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -7839,9 +7767,21 @@
     "service": 13261,
     "name": "TikTok - Likes | MQ - 500k | Non Drop | R30D | Fast 🔥🔥🔝",
     "type": "Default",
-    "rate": "1.9415",
+    "rate": "1.9419",
     "min": 10,
     "max": 500000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 10128,
+    "name": "TikTok - Likes | MQ 1K | Instant | R30 🔥🔥🔝",
+    "type": "Default",
+    "rate": "1.988",
+    "min": 10,
+    "max": 2000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -7872,12 +7812,48 @@
     "category": "TikTok - Likes"
   },
   {
+    "service": 13125,
+    "name": "Tiktok Likes | MQ 200K | SuperInstant | Speed: 30K/Day | Always Works 🔥🔥🔝",
+    "type": "Default",
+    "rate": "2.1005",
+    "min": 10,
+    "max": 15000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
     "service": 16484,
     "name": "TikTok - Likes | MQ 10K | Speed 1K P/H | Instant | NonDrop | R30 🔥🔥🔝",
     "type": "Default",
     "rate": "2.3089",
     "min": 10,
     "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 13126,
+    "name": "Tiktok - Likes | MQ 500K | SuperInstant | Speed 150K/Day | R30🔥🔥🔝",
+    "type": "Default",
+    "rate": "2.4503",
+    "min": 10,
+    "max": 30000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 4160,
+    "name": "TikTok - Likes | MQ 60K | Instant🔥🔥🔝",
+    "type": "Default",
+    "rate": "2.8363",
+    "min": 100,
+    "max": 10000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -7899,7 +7875,7 @@
     "service": 13631,
     "name": "TikTok - Likes | MQ 100K | Foreign Users | No Fall | Instant Starts | 50K per day 🔥🔥🔝",
     "type": "Default",
-    "rate": "3.0324",
+    "rate": "3.0325",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -7908,16 +7884,28 @@
     "category": "TikTok - Likes"
   },
   {
-    "service": 24779,
-    "name": "TikTok - Video Views | MQ 2.1B | Instant Start | Day 100M |",
+    "service": 22183,
+    "name": "Tiktok - Likes | Global | MQ 10M | Speed 1K/ 30 Minutes | Refill Lifetime | Non Drop | Cancel Button Enable | Ultra Fast",
     "type": "Default",
-    "rate": "0.01",
-    "min": 100,
-    "max": 2147483647,
+    "rate": "3.325",
+    "min": 10,
+    "max": 10000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
-    "category": "TikTok - Views"
+    "category": "TikTok - Likes"
+  },
+  {
+    "service": 15365,
+    "name": "TikTok - Likes | MQ 200K | SuperInstant | Speed 100K/Day 🔥🔥🔝",
+    "type": "Default",
+    "rate": "4.1496",
+    "min": 10,
+    "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Likes"
   },
   {
     "service": 12515,
@@ -7944,8 +7932,32 @@
     "category": "TikTok - Views"
   },
   {
+    "service": 24779,
+    "name": "TikTok - Video Views | MQ 2.1B | Instant Start | Day 100M |",
+    "type": "Default",
+    "rate": "0.01",
+    "min": 100,
+    "max": 2147483647,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Views"
+  },
+  {
     "service": 5171,
     "name": "TikTok - Views | MQ 5M | 0-15Min 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.0115",
+    "min": 100,
+    "max": 100000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Views"
+  },
+  {
+    "service": 3231,
+    "name": "TikTok - Views | MQ 10M | 0-30Min 🔥🔥🔝",
     "type": "Default",
     "rate": "0.0115",
     "min": 100,
@@ -7968,36 +7980,12 @@
     "category": "TikTok - Views"
   },
   {
-    "service": 3231,
-    "name": "TikTok - Views | MQ 10M | 0-30Min 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.0115",
-    "min": 100,
-    "max": 100000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Views"
-  },
-  {
     "service": 14404,
     "name": "Tiktok - Views | MQ 5M | Instant 🔥🔥🔝",
     "type": "Default",
     "rate": "0.0136",
     "min": 100,
     "max": 2147483647,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Views"
-  },
-  {
-    "service": 16684,
-    "name": "TikTok - Views + Share | MQ 200M 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.029",
-    "min": 100,
-    "max": 100000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -8016,12 +8004,36 @@
     "category": "TikTok - Views"
   },
   {
+    "service": 18433,
+    "name": "TikTok - Video Views | MQ 100M | Super Fast | Speed  1K P/D 🔥🔥 🔝",
+    "type": "Default",
+    "rate": "0.028",
+    "min": 100,
+    "max": 10000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Views"
+  },
+  {
     "service": 19085,
     "name": "TikTok - Video Views | MQ 100M | 0-15 Min | Speed 1M/Day 🔥🔥🔝",
     "type": "Default",
     "rate": "0.028",
     "min": 100,
     "max": 2147483647,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "TikTok - Views"
+  },
+  {
+    "service": 16684,
+    "name": "TikTok - Views + Share | MQ 200M 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.029",
+    "min": 100,
+    "max": 100000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -8046,18 +8058,6 @@
     "rate": "0.0378",
     "min": 100,
     "max": 2147483647,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "TikTok - Views"
-  },
-  {
-    "service": 18433,
-    "name": "TikTok - Video Views | MQ 100M | Super Fast | Speed  1K P/D 🔥🔥 🔝",
-    "type": "Default",
-    "rate": "0.028",
-    "min": 100,
-    "max": 10000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -8676,6 +8676,18 @@
     "category": "TikTok Views [ 100% İnstant Completed ] ᴺᴱᵂ"
   },
   {
+    "service": 14435,
+    "name": "TikTok - Video Views | MQ 1B | Instant | Superfast 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.011",
+    "min": 100,
+    "max": 2147483647,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Testing TikTok"
+  },
+  {
     "service": 6058,
     "name": "TikTok - Views | MQ 100M | 0-30Min | Recommended🔥🔥🔝",
     "type": "Default",
@@ -8688,24 +8700,24 @@
     "category": "Testing TikTok"
   },
   {
-    "service": 8463,
-    "name": "TikTok - Views | MQ 10M | Instant 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.0271",
-    "min": 100,
-    "max": 50000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Testing TikTok"
-  },
-  {
     "service": 17778,
     "name": "TikTok - Views | MQ 100M | Instant 🔥🔥🔝",
     "type": "Default",
     "rate": "0.0243",
     "min": 100,
     "max": 100000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Testing TikTok"
+  },
+  {
+    "service": 8463,
+    "name": "TikTok - Views | MQ 10M | Instant 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.027",
+    "min": 100,
+    "max": 50000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -8742,18 +8754,6 @@
     "rate": "0.078",
     "min": 100,
     "max": 1000000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Testing TikTok"
-  },
-  {
-    "service": 14435,
-    "name": "TikTok - Video Views | MQ 1B | Instant | Superfast 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.011",
-    "min": 100,
-    "max": 2147483647,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -9687,7 +9687,7 @@
     "service": 2634,
     "name": "Twitter - Likes (Favorite) | MQ 3K | Speed 3K P/H | Instant | Real 🔥🔥🔝",
     "type": "Default",
-    "rate": "1.9452",
+    "rate": "1.9453",
     "min": 100,
     "max": 10000,
     "dripfeed": false,
@@ -10116,18 +10116,6 @@
     "category": "Testing Instagram"
   },
   {
-    "service": 3209,
-    "name": "Instagram - Reel Likes | MQ 10K 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.1494",
-    "min": 50,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Testing Instagram"
-  },
-  {
     "service": 6495,
     "name": "Instagram - All Story Views | MQ 5K | 0-30 Minutes 🔥🔥🔝",
     "type": "Default",
@@ -10152,10 +10140,10 @@
     "category": "Testing Instagram"
   },
   {
-    "service": 4328,
-    "name": "Instagram - Reel Likes | MQ 5K 🔝 🔥🔥",
+    "service": 3209,
+    "name": "Instagram - Reel Likes | MQ 10K 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.213",
+    "rate": "0.1494",
     "min": 50,
     "max": 100000,
     "dripfeed": false,
@@ -10188,12 +10176,12 @@
     "category": "Testing Instagram"
   },
   {
-    "service": 17528,
-    "name": "Instagram - Reels Likes | MQ 20K | Real | High Quality | No Drop | Speed 500-1K/H | Instant🔥🔥🔝",
+    "service": 4328,
+    "name": "Instagram - Reel Likes | MQ 5K 🔝 🔥🔥",
     "type": "Default",
-    "rate": "0.6452",
-    "min": 20,
-    "max": 20000,
+    "rate": "0.213",
+    "min": 50,
+    "max": 100000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -10260,18 +10248,6 @@
     "category": "Testing Instagram"
   },
   {
-    "service": 17598,
-    "name": "Instagram - Followers | MQ 1M | Mix | High Quality | Speed 30-40K/D | 0-1/H 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.6802",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Testing Instagram"
-  },
-  {
     "service": 13144,
     "name": "Instagram - Likes | MQ 10K | Stories + Power Accounts | Real World Wide | Perfect Quality | No Drop | Speed 1K/H | Instant | Real 🔥🔥🔝",
     "type": "Default",
@@ -10296,18 +10272,6 @@
     "category": "Testing Instagram"
   },
   {
-    "service": 15345,
-    "name": "Instagram - Power Likes | MQ 300K | Real World Wide | R60 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.9646",
-    "min": 20,
-    "max": 300000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
-    "category": "Testing Instagram"
-  },
-  {
     "service": 16458,
     "name": "Instagram - Reels Likes | MQ 20K | Instant | Speed 300-500 P/H | Real | NonDrop 🔥🔥🔝",
     "type": "Default",
@@ -10317,6 +10281,30 @@
     "dripfeed": false,
     "refill": false,
     "cancel": false,
+    "category": "Testing Instagram"
+  },
+  {
+    "service": 17528,
+    "name": "Instagram - Reels Likes | MQ 20K | Real | High Quality | No Drop | Speed 500-1K/H | Instant🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.6452",
+    "min": 20,
+    "max": 20000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Testing Instagram"
+  },
+  {
+    "service": 17598,
+    "name": "Instagram - Followers | MQ 1M | Mix | High Quality | Speed 30-40K/D | 0-1/H 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.6802",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
     "category": "Testing Instagram"
   },
   {
@@ -10341,6 +10329,18 @@
     "dripfeed": false,
     "refill": false,
     "cancel": true,
+    "category": "Testing Instagram"
+  },
+  {
+    "service": 15345,
+    "name": "Instagram - Power Likes | MQ 300K | Real World Wide | R60 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.9646",
+    "min": 20,
+    "max": 300000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
     "category": "Testing Instagram"
   },
   {
@@ -10392,6 +10392,18 @@
     "category": "Testing Instagram"
   },
   {
+    "service": 16336,
+    "name": "Instagram - Followers | MQ 5K | Instant | Speed 5K/Day | Real Data Mix | App Data 🔥🔥🔝",
+    "type": "Default",
+    "rate": "2.2489",
+    "min": 10,
+    "max": 500000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
+    "category": "Testing Instagram"
+  },
+  {
     "service": 17608,
     "name": "Instagram - Followers | MQ 300K | Old Accounts | Nice Quality | Cancel Enabled | Speed 20-100K/D | Instant 🔥🔥🔝",
     "type": "Default",
@@ -10413,18 +10425,6 @@
     "dripfeed": false,
     "refill": false,
     "cancel": true,
-    "category": "Testing Instagram"
-  },
-  {
-    "service": 16336,
-    "name": "Instagram - Followers | MQ 5K | Instant | Speed 5K/Day | Real Data Mix | App Data 🔥🔥🔝",
-    "type": "Default",
-    "rate": "2.2489",
-    "min": 10,
-    "max": 500000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
     "category": "Testing Instagram"
   },
   {
@@ -10452,22 +10452,10 @@
     "category": "Testing Instagram"
   },
   {
-    "service": 3113,
-    "name": "Instagram - Followers | MQ 1K | 0-30Miin 🔥🔥🔝",
-    "type": "Default",
-    "rate": "8.0031",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Testing Instagram"
-  },
-  {
     "service": 3417,
     "name": "Instagram - Followers | USA | MQ 50K | RB30 | Speed 10K P/D 🔥🔥🔝",
     "type": "Default",
-    "rate": "6.37",
+    "rate": "7.28",
     "min": 10,
     "max": 50000,
     "dripfeed": false,
@@ -10494,6 +10482,18 @@
     "rate": "7.469",
     "min": 10,
     "max": 500000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Testing Instagram"
+  },
+  {
+    "service": 3113,
+    "name": "Instagram - Followers | MQ 1K | 0-30Miin 🔥🔥🔝",
+    "type": "Default",
+    "rate": "8.0031",
+    "min": 10,
+    "max": 1000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -10632,18 +10632,6 @@
     "category": "Testing Youtube"
   },
   {
-    "service": 17136,
-    "name": "YouTube - Live Stream | MQ 30K | High Quality | 60 Minutes Live Concurrent 🔥🔥",
-    "type": "Default",
-    "rate": "0.7616",
-    "min": 10,
-    "max": 500000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
-    "category": "Testing Youtube"
-  },
-  {
     "service": 19369,
     "name": "YouTube - Shorts Likes | Real | MQ 50K | 50K / 30 Minutes | Non Drop | R30🔝",
     "type": "Default",
@@ -10652,6 +10640,18 @@
     "max": 10000,
     "dripfeed": false,
     "refill": true,
+    "cancel": false,
+    "category": "Testing Youtube"
+  },
+  {
+    "service": 17136,
+    "name": "YouTube - Live Stream | MQ 30K | High Quality | 60 Minutes Live Concurrent 🔥🔥",
+    "type": "Default",
+    "rate": "0.7616",
+    "min": 10,
+    "max": 500000,
+    "dripfeed": false,
+    "refill": false,
     "cancel": false,
     "category": "Testing Youtube"
   },
@@ -10788,10 +10788,10 @@
     "category": "Testing Facebook"
   },
   {
-    "service": 3453,
-    "name": "Facebook - Emotions Post/Photo Likes | Angry | MQ 1K | 0-1 Hours 🔥🔥🔝",
+    "service": 9181,
+    "name": "Facebook - Post/Photo Likes | Emotions | HaHa | MQ 1M | 0-1H 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.1872",
+    "rate": "0.1834",
     "min": 10,
     "max": 10000000,
     "dripfeed": false,
@@ -10800,10 +10800,10 @@
     "category": "Testing Facebook"
   },
   {
-    "service": 9181,
-    "name": "Facebook - Post/Photo Likes | Emotions | HaHa | MQ 1M | 0-1H 🔥🔥🔝",
+    "service": 3453,
+    "name": "Facebook - Emotions Post/Photo Likes | Angry | MQ 1K | 0-1 Hours 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.1834",
+    "rate": "0.1872",
     "min": 10,
     "max": 10000000,
     "dripfeed": false,
@@ -10980,8 +10980,8 @@
     "category": "IG Emergency Views"
   },
   {
-    "service": 20695,
-    "name": "Instagram - Followers | MQ 100K | Speed 30-40k/day🔝",
+    "service": 20694,
+    "name": "Instagram - Followers | MQ 100K | Speed 70K-90K🔝",
     "type": "Default",
     "rate": "3.0688",
     "min": 1,
@@ -10992,8 +10992,8 @@
     "category": "Instagram - Followers | Updated 15.08.2023"
   },
   {
-    "service": 20694,
-    "name": "Instagram - Followers | MQ 100K | Speed 70K-90K🔝",
+    "service": 20695,
+    "name": "Instagram - Followers | MQ 100K | Speed 30-40k/day🔝",
     "type": "Default",
     "rate": "3.0688",
     "min": 1,
@@ -11124,18 +11124,6 @@
     "category": "Instagram - Followers | Refill"
   },
   {
-    "service": 16298,
-    "name": "Instagram - Followers | MQ 500K | Instant | Speed 5-10K P/H | Less Drop | RB30 🔥🔥🔝🔝",
-    "type": "Default",
-    "rate": "4.4823",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Followers | Refill"
-  },
-  {
     "service": 13203,
     "name": "Instagram - Followers | MQ 150K | Real | High Quality | Extra Delivery | Speed 5-10K/D | Very Instant 🔝",
     "type": "Default",
@@ -11154,18 +11142,6 @@
     "rate": "3.1589",
     "min": 10,
     "max": 5000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Followers | Refill"
-  },
-  {
-    "service": 6312,
-    "name": "Instagram - Followers | MQ 30K | Speed 20K/D | Less Drop | RB30 🔥🔥🔝",
-    "type": "Default",
-    "rate": "5.4098",
-    "min": 20,
-    "max": 500000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -11196,12 +11172,36 @@
     "category": "Instagram - Followers | Refill"
   },
   {
+    "service": 16298,
+    "name": "Instagram - Followers | MQ 500K | Instant | Speed 5-10K P/H | Less Drop | RB30 🔥🔥🔝🔝",
+    "type": "Default",
+    "rate": "4.4823",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Followers | Refill"
+  },
+  {
     "service": 16329,
     "name": "Instagram - Followers | Female Based | MQ 200K | Instant | Speed 5-10K/Hour | Cancel Button | RB30🔥🔥🔝",
     "type": "Default",
     "rate": "4.946",
     "min": 10,
     "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Followers | Refill"
+  },
+  {
+    "service": 6312,
+    "name": "Instagram - Followers | MQ 30K | Speed 20K/D | Less Drop | RB30 🔥🔥🔝",
+    "type": "Default",
+    "rate": "5.4103",
+    "min": 20,
+    "max": 500000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -11218,18 +11218,6 @@
     "refill": false,
     "cancel": false,
     "category": "Instagram - Followers | Refill"
-  },
-  {
-    "service": 16350,
-    "name": "Instagram - Followers | MQ 100K | Old Accounts | 0-2 Hours | Speed 3-5K/Day | Less Drops 🔥🔥🔝",
-    "type": "Default",
-    "rate": "3.1395",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Followers | No Refill"
   },
   {
     "service": 22042,
@@ -11268,10 +11256,22 @@
     "category": "Instagram - Followers | No Refill"
   },
   {
+    "service": 16350,
+    "name": "Instagram - Followers | MQ 100K | Old Accounts | 0-2 Hours | Speed 3-5K/Day | Less Drops 🔥🔥🔝",
+    "type": "Default",
+    "rate": "3.1395",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Followers | No Refill"
+  },
+  {
     "service": 6749,
     "name": "Instagram - Followers | MQ 50K | Speed 5K P/D | Non Drop 🔥🔥🔝",
     "type": "Default",
-    "rate": "4.7971",
+    "rate": "4.7976",
     "min": 50,
     "max": 300000,
     "dripfeed": false,
@@ -11388,18 +11388,6 @@
     "category": "Instagram - Likes | Refill"
   },
   {
-    "service": 17490,
-    "name": "Instagram - Likes | Old Accounts | MQ 100K | Instant | Speed 20K P/D | RB30🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.6183",
-    "min": 50,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Likes | Refill"
-  },
-  {
     "service": 16388,
     "name": "Instagram - Likes | MQ 200K | Instant | Fast | RB30 🔥🔥🔝",
     "type": "Default",
@@ -11409,18 +11397,6 @@
     "dripfeed": false,
     "refill": false,
     "cancel": false,
-    "category": "Instagram - Likes | Refill"
-  },
-  {
-    "service": 17493,
-    "name": "Instagram - Likes | MQ 200K | Real | High Quality | No Drop | Speed 100K P/D | Instant | RB30 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.6452",
-    "min": 50,
-    "max": 200000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
     "category": "Instagram - Likes | Refill"
   },
   {
@@ -11490,6 +11466,30 @@
     "rate": "0.56",
     "min": 10,
     "max": 5000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Likes | Refill"
+  },
+  {
+    "service": 17490,
+    "name": "Instagram - Likes | Old Accounts | MQ 100K | Instant | Speed 20K P/D | RB30🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.6183",
+    "min": 50,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Likes | Refill"
+  },
+  {
+    "service": 17493,
+    "name": "Instagram - Likes | MQ 200K | Real | High Quality | No Drop | Speed 100K P/D | Instant | RB30 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.6452",
+    "min": 50,
+    "max": 200000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -11592,30 +11592,6 @@
     "category": "Instagram - Likes | Refill"
   },
   {
-    "service": 14808,
-    "name": "Instagram - Likes | MQ 100K | 0-60 Min 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.2894",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Likes | No Refill"
-  },
-  {
-    "service": 13150,
-    "name": "Instagram - Likes | MQ 300K | Mix | High Quality | Low Drop | Speed 50-150K/D | Instant 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.5914",
-    "min": 10,
-    "max": 300000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Likes | No Refill"
-  },
-  {
     "service": 16362,
     "name": "Instagram - Likes | MQ 100K | Instant | Speed 10-20K/Hour 🔥🔥🔝",
     "type": "Default",
@@ -11625,6 +11601,18 @@
     "dripfeed": false,
     "refill": false,
     "cancel": false,
+    "category": "Instagram - Likes | No Refill"
+  },
+  {
+    "service": 14808,
+    "name": "Instagram - Likes | MQ 100K | 0-60 Min 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.2894",
+    "min": 10,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
     "category": "Instagram - Likes | No Refill"
   },
   {
@@ -11652,18 +11640,6 @@
     "category": "Instagram - Likes | No Refill"
   },
   {
-    "service": 15334,
-    "name": "Instagram - Likes | MQ 10K | Real with Stories | Perfect Quality | No Drop | Speed 5-10K/H | Instant🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.5376",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Likes | No Refill"
-  },
-  {
     "service": 10167,
     "name": "Instagram - Likes | MQ 75K | Real | Non Drop | Speed 1K P/H | R30🔥🔥🔝",
     "type": "Default",
@@ -11676,11 +11652,35 @@
     "category": "Instagram - Likes | No Refill"
   },
   {
+    "service": 15334,
+    "name": "Instagram - Likes | MQ 10K | Real with Stories | Perfect Quality | No Drop | Speed 5-10K/H | Instant🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.5376",
+    "min": 10,
+    "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Likes | No Refill"
+  },
+  {
     "service": 10786,
     "name": "Instagram - Likes | MQ 100K | HQ | Super Fast |🔥🔥🔝",
     "type": "Default",
     "rate": "0.56",
     "min": 25,
+    "max": 300000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Likes | No Refill"
+  },
+  {
+    "service": 13150,
+    "name": "Instagram - Likes | MQ 300K | Mix | High Quality | Low Drop | Speed 50-150K/D | Instant 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.5914",
+    "min": 10,
     "max": 300000,
     "dripfeed": false,
     "refill": false,
@@ -11796,18 +11796,6 @@
     "category": "Instagram - Likes | Targeted"
   },
   {
-    "service": 1219,
-    "name": "Instagram - Likes | Turkey | MQ 20K | Instant 🔥🔥🔝",
-    "type": "Default",
-    "rate": "2.2205",
-    "min": 10,
-    "max": 15000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
-    "category": "Instagram - Likes | Targeted"
-  },
-  {
     "service": 13765,
     "name": "Instagram - Likes | Latin America and Mexico | MQ 5K | AR30 🔥🔥🔝",
     "type": "Default",
@@ -11817,6 +11805,18 @@
     "dripfeed": false,
     "refill": false,
     "cancel": true,
+    "category": "Instagram - Likes | Targeted"
+  },
+  {
+    "service": 1219,
+    "name": "Instagram - Likes | Turkey | MQ 20K | Instant 🔥🔥🔝",
+    "type": "Default",
+    "rate": "2.2206",
+    "min": 10,
+    "max": 15000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
     "category": "Instagram - Likes | Targeted"
   },
   {
@@ -11844,18 +11844,6 @@
     "category": "Instagram - Likes | Targeted"
   },
   {
-    "service": 15343,
-    "name": "Instagram - Power Likes | MQ 200K | High Quality | R60 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.3803",
-    "min": 1,
-    "max": 200000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Power Likes"
-  },
-  {
     "service": 16405,
     "name": "Instagram - Power Likes | MQ 30K | Instant | Speed 1K/Hour | Power Quality 🔥🔥🔝",
     "type": "Default",
@@ -11865,6 +11853,18 @@
     "dripfeed": false,
     "refill": false,
     "cancel": false,
+    "category": "Instagram - Power Likes"
+  },
+  {
+    "service": 15343,
+    "name": "Instagram - Power Likes | MQ 200K | High Quality | R60 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.3803",
+    "min": 1,
+    "max": 200000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
     "category": "Instagram - Power Likes"
   },
   {
@@ -11934,18 +11934,6 @@
     "rate": "0.0016",
     "min": 100,
     "max": 1000000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Views"
-  },
-  {
-    "service": 14065,
-    "name": "Instagram - Video Views | MQ 500M | Video+ Reel + IGTV 🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.0023",
-    "min": 100,
-    "max": 2147483647,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -12108,6 +12096,30 @@
     "category": "Instagram - Views"
   },
   {
+    "service": 15465,
+    "name": "Instagram - Video Views All Link | MQ 3M | Video+Reel+IGTV 🔥🔥 🔝",
+    "type": "Default",
+    "rate": "0.0023",
+    "min": 100,
+    "max": 2147483647,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Views"
+  },
+  {
+    "service": 14065,
+    "name": "Instagram - Video Views | MQ 500M | Video+ Reel + IGTV 🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.0023",
+    "min": 100,
+    "max": 2147483647,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Views"
+  },
+  {
     "service": 15094,
     "name": "Instagram - Views | MQ 2.1B | Emergency🔝",
     "type": "Default",
@@ -12172,18 +12184,6 @@
     "name": "Instagram - Video Views | MQ 100M | All Link | Cancel Enable | Instant Start | Cheapest",
     "type": "Default",
     "rate": "0.0035",
-    "min": 100,
-    "max": 2147483647,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Views"
-  },
-  {
-    "service": 15465,
-    "name": "Instagram - Video Views All Link | MQ 3M | Video+Reel+IGTV 🔥🔥 🔝",
-    "type": "Default",
-    "rate": "0.0023",
     "min": 100,
     "max": 2147483647,
     "dripfeed": false,
@@ -12387,7 +12387,7 @@
     "service": 2675,
     "name": "Instagram - Saves | MQ 15K | Instant 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.1541",
+    "rate": "0.1543",
     "min": 10,
     "max": 5000,
     "dripfeed": false,
@@ -12444,8 +12444,8 @@
     "category": "Instagram - Profile Visit"
   },
   {
-    "service": 16451,
-    "name": "Instagram - Reels Views | MQ 500K | Slow 🔥🔥🔝",
+    "service": 14862,
+    "name": "Instagram - Reels+TV+Video Views | MQ 1M | Instant🔥🔥🔝",
     "type": "Default",
     "rate": "0.0014",
     "min": 100,
@@ -12456,12 +12456,12 @@
     "category": "Instagram - Reels"
   },
   {
-    "service": 6486,
-    "name": "Instagram - Reel Views | MQ 10M 🔥🔥🔝",
+    "service": 16451,
+    "name": "Instagram - Reels Views | MQ 500K | Slow 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0017",
+    "rate": "0.0014",
     "min": 100,
-    "max": 100000000,
+    "max": 2147483647,
     "dripfeed": false,
     "refill": false,
     "cancel": false,
@@ -12480,12 +12480,12 @@
     "category": "Instagram - Reels"
   },
   {
-    "service": 14862,
-    "name": "Instagram - Reels+TV+Video Views | MQ 1M | Instant🔥🔥🔝",
+    "service": 6486,
+    "name": "Instagram - Reel Views | MQ 10M 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0014",
+    "rate": "0.0017",
     "min": 100,
-    "max": 2147483647,
+    "max": 100000000,
     "dripfeed": false,
     "refill": false,
     "cancel": false,
@@ -12591,7 +12591,7 @@
     "service": 16463,
     "name": "Instagram - Reels Likes + Impression + Reach | MQ 50K | Instant | Speed 1-2K/Hour 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.2932",
+    "rate": "0.2936",
     "min": 100,
     "max": 100000,
     "dripfeed": false,
@@ -12720,18 +12720,6 @@
     "category": "Instagram - Impressions + Reach"
   },
   {
-    "service": 17629,
-    "name": "Instagram - Reach + Impressions + Profile Visits | MQ 100K | High Reach | Natural Increase🔥🔥🔝",
-    "type": "Default",
-    "rate": "0.0602",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram - Impressions + Reach"
-  },
-  {
     "service": 10771,
     "name": "Instagram - Reach and Impressions | MQ 500K 🔥🔥🔝",
     "type": "Default",
@@ -12750,6 +12738,18 @@
     "rate": "0.056",
     "min": 10,
     "max": 300000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram - Impressions + Reach"
+  },
+  {
+    "service": 17629,
+    "name": "Instagram - Reach + Impressions + Profile Visits | MQ 100K | High Reach | Natural Increase🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.0602",
+    "min": 10,
+    "max": 1000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -13104,24 +13104,24 @@
     "category": "YouTube - Views | Lifetime Guarantee"
   },
   {
-    "service": 17258,
-    "name": "YouTube - Views + Likes | MQ 30M | Speed 10k-15K/day | Start Time : 0-5Min | Suggested + Direct + Browse Feature | Lifetime Guarantee 🔥🔥🔝",
-    "type": "Default",
-    "rate": "1.092",
-    "min": 100,
-    "max": 30000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "YouTube - Views | Lifetime Guarantee"
-  },
-  {
     "service": 9665,
     "name": "YouTube - Views | MQ 100K | Good For Ranking | 70k-200k P/D | Instant | Lifetime🔥🔥🔝",
     "type": "Default",
     "rate": "1.0584",
     "min": 100,
     "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "YouTube - Views | Lifetime Guarantee"
+  },
+  {
+    "service": 17258,
+    "name": "YouTube - Views + Likes | MQ 30M | Speed 10k-15K/day | Start Time : 0-5Min | Suggested + Direct + Browse Feature | Lifetime Guarantee 🔥🔥🔝",
+    "type": "Default",
+    "rate": "1.092",
+    "min": 100,
+    "max": 30000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -13204,7 +13204,7 @@
     "name": "YouTube - Views | MQ 500M | Good For Ranking | Speed 50k-70k P/D | Instant | Lifetime🔥🔥🔝",
     "type": "Default",
     "rate": "2.604",
-    "min": 500,
+    "min": 100,
     "max": 500000000,
     "dripfeed": false,
     "refill": false,
@@ -13336,7 +13336,7 @@
     "name": "Youtube - Subscribers | MQ 1M | Start Time: 1 Hour | Speed: 400/Day | Non Drop | R90🔝",
     "type": "Default",
     "rate": "42.63",
-    "min": 50,
+    "min": 100,
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
@@ -13620,18 +13620,6 @@
     "category": "Twitter - Views"
   },
   {
-    "service": 20894,
-    "name": "Twitter - Views | USA | MQ 5M",
-    "type": "Default",
-    "rate": "0.0073",
-    "min": 100,
-    "max": 100000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
-    "category": "Twitter - Views"
-  },
-  {
     "service": 18321,
     "name": "Twitter - Tweet Views | MQ 10M 🔥🔥🔝",
     "type": "Default",
@@ -13660,6 +13648,18 @@
     "name": "Twitter - Views | Instant Start | Speed 1M/D🔥🔥 🔝",
     "type": "Default",
     "rate": "0.007",
+    "min": 100,
+    "max": 100000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
+    "category": "Twitter - Views"
+  },
+  {
+    "service": 20894,
+    "name": "Twitter - Views | USA | MQ 5M",
+    "type": "Default",
+    "rate": "0.0073",
     "min": 100,
     "max": 100000000,
     "dripfeed": false,
@@ -13956,10 +13956,10 @@
     "category": "Telegram - Views"
   },
   {
-    "service": 13290,
-    "name": "Telegram - Post Views | MQ 100M | Instant 🔥🔥🔝",
+    "service": 15972,
+    "name": "Telegram - Post View | MQ 100K | Any Post - Non Drop | Instant🔥🔥🔝",
     "type": "Default",
-    "rate": "0.017",
+    "rate": "0.0168",
     "min": 500,
     "max": 10000000,
     "dripfeed": false,
@@ -13968,10 +13968,10 @@
     "category": "Telegram - Views"
   },
   {
-    "service": 15972,
-    "name": "Telegram - Post View | MQ 100K | Any Post - Non Drop | Instant🔥🔥🔝",
+    "service": 13290,
+    "name": "Telegram - Post Views | MQ 100M | Instant 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0168",
+    "rate": "0.017",
     "min": 500,
     "max": 10000000,
     "dripfeed": false,
@@ -16128,24 +16128,24 @@
     "category": "𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠 - Followers [ 250k Speed ] [ Updated Server ] P3"
   },
   {
-    "service": 27339,
-    "name": "Youtube Real Custom Comments [10K] [30 Day Refill] ⛔",
-    "type": "Custom Comments",
-    "rate": "6.86",
-    "min": 1,
-    "max": 10000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Youtube Comment | Comment Like"
-  },
-  {
     "service": 24636,
     "name": "YouTube - Under Comment Likes | M 500K |  Day 10K | UltraFast | R30",
     "type": "Default",
     "rate": "0.70",
     "min": 10,
     "max": 20000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Youtube Comment | Comment Like"
+  },
+  {
+    "service": 27339,
+    "name": "Youtube Real Custom Comments [10K] [30 Day Refill] ⛔",
+    "type": "Custom Comments",
+    "rate": "6.86",
+    "min": 1,
+    "max": 10000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -17352,7 +17352,7 @@
     "category": "TikTok Likes [ High Quality ] [ Cheapest 💥] ᴺᴱᵂ"
   },
   {
-    "service": 28228,
+    "service": 29698,
     "name": "TikTok Likes [ Max 1M ] | 100% Real Accounts | Cancel Enable | No Refill ⚠️ | Instant Start | Day 100K 🚀",
     "type": "Default",
     "rate": "0.756",
@@ -17364,7 +17364,7 @@
     "category": "TikTok Likes [ UltraFast 🚀 ] ᴺᴱᵂ"
   },
   {
-    "service": 29698,
+    "service": 28228,
     "name": "TikTok Likes [ Max 1M ] | 100% Real Accounts | Cancel Enable | No Refill ⚠️ | Instant Start | Day 100K 🚀",
     "type": "Default",
     "rate": "0.756",
@@ -19320,6 +19320,30 @@
     "category": "➡️ Tik Tok Likes"
   },
   {
+    "service": 29312,
+    "name": "TIKTOK LIKES - MAX 10K - 10K / Hour - Cheapest",
+    "type": "Default",
+    "rate": "1.988",
+    "min": 10,
+    "max": 150000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "➡️ Tik Tok Likes"
+  },
+  {
+    "service": 29306,
+    "name": "TikTok Likes [ Real - Max 50K] [ High Quality] [ Most Sold] [ Recommended #1]",
+    "type": "Default",
+    "rate": "2.03",
+    "min": 5,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
+    "category": "➡️ Tik Tok Likes"
+  },
+  {
     "service": 29308,
     "name": "TikTok Like | Instant | Super Fast | 20K | No Refill",
     "type": "Default",
@@ -19344,18 +19368,6 @@
     "category": "➡️ Tik Tok Likes"
   },
   {
-    "service": 29312,
-    "name": "TIKTOK LIKES - MAX 10K - 10K / Hour - Cheapest",
-    "type": "Default",
-    "rate": "1.988",
-    "min": 10,
-    "max": 150000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "➡️ Tik Tok Likes"
-  },
-  {
     "service": 29310,
     "name": "Tiktok Likes Real [30 days refill] [ 10k/day]",
     "type": "Default",
@@ -19365,18 +19377,6 @@
     "dripfeed": false,
     "refill": false,
     "cancel": true,
-    "category": "➡️ Tik Tok Likes"
-  },
-  {
-    "service": 29306,
-    "name": "TikTok Likes [ Real - Max 50K] [ High Quality] [ Most Sold] [ Recommended #1]",
-    "type": "Default",
-    "rate": "2.03",
-    "min": 5,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
     "category": "➡️ Tik Tok Likes"
   },
   {
@@ -19500,24 +19500,24 @@
     "category": "➡️Tik Tok Views/Comments/Shares"
   },
   {
-    "service": 29329,
-    "name": "Tiktok Views [ Cheapest - 0.015$/k ]",
-    "type": "Default",
-    "rate": "0.14",
-    "min": 100,
-    "max": 10000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "➡️Tik Tok Views/Comments/Shares"
-  },
-  {
     "service": 29333,
     "name": "TikTok Video Views  Super Fast [ Emergency ] [ 0.01$ ]",
     "type": "Default",
     "rate": "0.126",
     "min": 100,
     "max": 2147483647,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "➡️Tik Tok Views/Comments/Shares"
+  },
+  {
+    "service": 29329,
+    "name": "Tiktok Views [ Cheapest - 0.015$/k ]",
+    "type": "Default",
+    "rate": "0.14",
+    "min": 100,
+    "max": 10000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -21204,24 +21204,24 @@
     "category": "Tiktok Likes  [ Cheapest 💥 ] ᴺᴱᵂ"
   },
   {
-    "service": 30211,
-    "name": "Youtube Subscribe [100K] [7 Day Refill] [Instant Superfast]",
-    "type": "Default",
-    "rate": "5.488",
-    "min": 10,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Youtube Subscribe"
-  },
-  {
     "service": 36672,
     "name": "Youtube Subscribe [20K] [No Refill] [Instant Superfast]",
     "type": "Default",
     "rate": "0.70",
     "min": 10,
     "max": 20000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Youtube Subscribe"
+  },
+  {
+    "service": 30211,
+    "name": "Youtube Subscribe [100K] [7 Day Refill] [Instant Superfast]",
+    "type": "Default",
+    "rate": "5.488",
+    "min": 10,
+    "max": 100000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -21672,10 +21672,10 @@
     "category": "Youtube [Cheapest Promotion For Api]"
   },
   {
-    "service": 30840,
-    "name": "Youtube Under Comment Likes - Comment Reply Likes",
+    "service": 30838,
+    "name": "Youtube Comment Likes",
     "type": "Default",
-    "rate": "0.4234",
+    "rate": "0.3528",
     "min": 10,
     "max": 20000,
     "dripfeed": false,
@@ -21684,10 +21684,10 @@
     "category": "Youtube [Cheapest Promotion For Api]"
   },
   {
-    "service": 30838,
-    "name": "Youtube Comment Likes",
+    "service": 30840,
+    "name": "Youtube Under Comment Likes - Comment Reply Likes",
     "type": "Default",
-    "rate": "0.3528",
+    "rate": "0.4234",
     "min": 10,
     "max": 20000,
     "dripfeed": false,
@@ -22524,6 +22524,18 @@
     "category": "TikTok Likes [ Non Drop - Provider ] ᴺᴱᵂ"
   },
   {
+    "service": 31264,
+    "name": "TikTok Likes [ Max 10M ] | Non Drop | Cancel Enable | 30 Days ♻️ | Instant Start | Day 200K 🚀",
+    "type": "Default",
+    "rate": "0.672",
+    "min": 10,
+    "max": 1000000,
+    "dripfeed": false,
+    "refill": true,
+    "cancel": true,
+    "category": "TikTok Likes [ Non Drop - Provider ] ᴺᴱᵂ"
+  },
+  {
     "service": 31940,
     "name": "TikTok Likes [ Max 1M ] | Non Drop | Cancel Enable | No Refill ⚠️ | Instant Start | Day 200K 🚀",
     "type": "Default",
@@ -22536,10 +22548,10 @@
     "category": "TikTok Likes [ Non Drop - Provider ] ᴺᴱᵂ"
   },
   {
-    "service": 31264,
-    "name": "TikTok Likes [ Max 10M ] | Non Drop | Cancel Enable | 30 Days ♻️ | Instant Start | Day 200K 🚀",
+    "service": 31265,
+    "name": "TikTok Likes [ Max 10M ] | Non Drop | Cancel Enable | 60 Days ♻️ | Instant Start | Day 200K 🚀",
     "type": "Default",
-    "rate": "0.672",
+    "rate": "0.686",
     "min": 10,
     "max": 1000000,
     "dripfeed": false,
@@ -22560,20 +22572,8 @@
     "category": "TikTok Likes [ Non Drop - Provider ] ᴺᴱᵂ"
   },
   {
-    "service": 31265,
-    "name": "TikTok Likes [ Max 10M ] | Non Drop | Cancel Enable | 60 Days ♻️ | Instant Start | Day 200K 🚀",
-    "type": "Default",
-    "rate": "0.686",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": true,
-    "cancel": true,
-    "category": "TikTok Likes [ Non Drop - Provider ] ᴺᴱᵂ"
-  },
-  {
-    "service": 31942,
-    "name": "TikTok Likes [ Max 1M ] | Non Drop | Cancel Enable | 60 Days ♻️ | Instant Start | Day 200K 🚀",
+    "service": 31266,
+    "name": "TikTok Likes [ Max 10M ] | Non Drop | Cancel Enable | 90 Days ♻️ | Instant Start | Day 200K 🚀",
     "type": "Default",
     "rate": "0.70",
     "min": 10,
@@ -22584,8 +22584,8 @@
     "category": "TikTok Likes [ Non Drop - Provider ] ᴺᴱᵂ"
   },
   {
-    "service": 31266,
-    "name": "TikTok Likes [ Max 10M ] | Non Drop | Cancel Enable | 90 Days ♻️ | Instant Start | Day 200K 🚀",
+    "service": 31942,
+    "name": "TikTok Likes [ Max 1M ] | Non Drop | Cancel Enable | 60 Days ♻️ | Instant Start | Day 200K 🚀",
     "type": "Default",
     "rate": "0.70",
     "min": 10,
@@ -22608,8 +22608,8 @@
     "category": "TikTok Likes [ Non Drop - Provider ] ᴺᴱᵂ"
   },
   {
-    "service": 31944,
-    "name": "TikTok Likes [ Max 1M ] | Non Drop | Cancel Enable | 365 Days ♻️ | Instant Start | Day 200K 🚀",
+    "service": 31268,
+    "name": "TikTok Likes [ Max 10M ] | Non Drop | Cancel Enable | Lifetime ♻️ | Instant Start | Day 200K 🚀",
     "type": "Default",
     "rate": "0.728",
     "min": 10,
@@ -22620,8 +22620,8 @@
     "category": "TikTok Likes [ Non Drop - Provider ] ᴺᴱᵂ"
   },
   {
-    "service": 31268,
-    "name": "TikTok Likes [ Max 10M ] | Non Drop | Cancel Enable | Lifetime ♻️ | Instant Start | Day 200K 🚀",
+    "service": 31944,
+    "name": "TikTok Likes [ Max 1M ] | Non Drop | Cancel Enable | 365 Days ♻️ | Instant Start | Day 200K 🚀",
     "type": "Default",
     "rate": "0.728",
     "min": 10,
@@ -23076,6 +23076,18 @@
     "category": "Instagram ➜ Bot Followers"
   },
   {
+    "service": 31477,
+    "name": "❤️ Instagram Likes | No Refill | ⭐️ 𝐇𝐈𝐆𝐇 𝐐𝐔𝐀𝐋𝐈𝐓𝐘",
+    "type": "Default",
+    "rate": "0.126",
+    "min": 10,
+    "max": 1000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": true,
+    "category": "Instagram ➜ Likes"
+  },
+  {
     "service": 31476,
     "name": "❤️ Instagram Likes | No Refill | 💰 𝐂𝐇𝐄𝐀𝐏",
     "type": "Default",
@@ -23092,18 +23104,6 @@
     "name": "❤️ Instagram Likes | ♻️ 365 Days Refill | ⭐️ 𝐇𝐈𝐆𝐇 𝐐𝐔𝐀𝐋𝐈𝐓𝐘",
     "type": "Default",
     "rate": "0.224",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram ➜ Likes"
-  },
-  {
-    "service": 31477,
-    "name": "❤️ Instagram Likes | No Refill | ⭐️ 𝐇𝐈𝐆𝐇 𝐐𝐔𝐀𝐋𝐈𝐓𝐘",
-    "type": "Default",
-    "rate": "0.126",
     "min": 10,
     "max": 1000000,
     "dripfeed": false,
@@ -23232,10 +23232,10 @@
     "category": "Facebook ➜ Page / Profile Followers"
   },
   {
-    "service": 31519,
-    "name": "💙 Facebook Page Likes + Followers | No Refill",
+    "service": 31522,
+    "name": "💙 Facebook Page Likes + Followers | ♻️ 90 Days Refill",
     "type": "Default",
-    "rate": "0.868",
+    "rate": "0.84",
     "min": 10,
     "max": 1000000,
     "dripfeed": false,
@@ -23244,10 +23244,10 @@
     "category": "Facebook ➜ Page Likes + Followers"
   },
   {
-    "service": 31522,
-    "name": "💙 Facebook Page Likes + Followers | ♻️ 90 Days Refill",
+    "service": 31519,
+    "name": "💙 Facebook Page Likes + Followers | No Refill",
     "type": "Default",
-    "rate": "0.84",
+    "rate": "0.868",
     "min": 10,
     "max": 1000000,
     "dripfeed": false,
@@ -23376,10 +23376,10 @@
     "category": "Kick ➜ Live Stream Views"
   },
   {
-    "service": 31562,
-    "name": "Kick Live Stream Viewers | 150 Minutes",
+    "service": 31563,
+    "name": "Kick Live Stream Viewers | 180 Minutes",
     "type": "Default",
-    "rate": "0.882",
+    "rate": "0.742",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -23388,10 +23388,10 @@
     "category": "Kick ➜ Live Stream Views"
   },
   {
-    "service": 31563,
-    "name": "Kick Live Stream Viewers | 180 Minutes",
+    "service": 31562,
+    "name": "Kick Live Stream Viewers | 150 Minutes",
     "type": "Default",
-    "rate": "0.742",
+    "rate": "0.882",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -24036,18 +24036,6 @@
     "category": "Watch hours [ New ] [ Working after Update ]"
   },
   {
-    "service": 32831,
-    "name": "Youtube Subscriber [ Instant Start ] [ No refill ][ Speed 50k/hr ]",
-    "type": "Default",
-    "rate": "0.224",
-    "min": 100,
-    "max": 100000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": false,
-    "category": "Youtube - Custom Comment / Subs / Comment likes"
-  },
-  {
     "service": 32830,
     "name": "YouTube Subscriber [ Instant start ]  [ No refill ] 10k/hr Speed",
     "type": "Default",
@@ -24060,10 +24048,22 @@
     "category": "Youtube - Custom Comment / Subs / Comment likes"
   },
   {
+    "service": 32831,
+    "name": "Youtube Subscriber [ Instant Start ] [ No refill ][ Speed 50k/hr ]",
+    "type": "Default",
+    "rate": "0.224",
+    "min": 100,
+    "max": 100000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
+    "category": "Youtube - Custom Comment / Subs / Comment likes"
+  },
+  {
     "service": 32833,
     "name": "Youtube Custom Comments [ Instant start ] [ 100% non drop ] [ 10k/hr speed ]",
     "type": "Custom Comments",
-    "rate": "1.596",
+    "rate": "2.268",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -24099,7 +24099,7 @@
     "service": 32839,
     "name": "YouTube Custom Comments | 10K/Day | High Quality Accounts | Non Drop | No Refill | Instant",
     "type": "Custom Comments",
-    "rate": "1.596",
+    "rate": "2.268",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -24111,7 +24111,7 @@
     "service": 32840,
     "name": "YouTube Custom Comments | 10K/Day | High Quality Accounts | Non Drop | 30 Days Refill ♻️ | Instant",
     "type": "Custom Comments",
-    "rate": "2.184",
+    "rate": "3.024",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -24123,7 +24123,7 @@
     "service": 32841,
     "name": "YouTube Custom Comments | 10K/Day | High Quality Accounts | Non Drop | 365 Days Refill ♻️ | Instant",
     "type": "Custom Comments",
-    "rate": "2.282",
+    "rate": "3.15",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -24135,7 +24135,7 @@
     "service": 32842,
     "name": "YouTube Custom Comments | 10K/Day | High Quality Accounts | Non Drop | Lifetime Refill ♻️ | Instant",
     "type": "Custom Comments",
-    "rate": "2.366",
+    "rate": "3.276",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -25512,9 +25512,9 @@
     "category": "Twitter Services [Cheap - Low Drop Rate]"
   },
   {
-    "service": 33701,
-    "name": "Facebook Costum Comments [Fast Delivery] [10-50K/D] [Instant]",
-    "type": "Custom Comments",
+    "service": 33700,
+    "name": "Facebook Random Comments [Cancel Enabled] [10-50K/D] [0-1/H]",
+    "type": "Default",
     "rate": "1.5456",
     "min": 10,
     "max": 1000000,
@@ -25524,9 +25524,9 @@
     "category": "Facebook Comments [Cheap - Smooth Service]"
   },
   {
-    "service": 33700,
-    "name": "Facebook Random Comments [Cancel Enabled] [10-50K/D] [0-1/H]",
-    "type": "Default",
+    "service": 33701,
+    "name": "Facebook Costum Comments [Fast Delivery] [10-50K/D] [Instant]",
+    "type": "Custom Comments",
     "rate": "1.5456",
     "min": 10,
     "max": 1000000,
