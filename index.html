@@ -1,30 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>PRO-SMM · Peakerr Services</title>
-  <style>
-    :root{color-scheme:dark;font-family:Inter,ui-sans-serif,system-ui,sans-serif}*{box-sizing:border-box}body{margin:0;background:#08110c;color:#eef8ef}main{max-width:1120px;margin:auto;padding:28px 18px 56px}.hero{padding:32px;border:1px solid #23452d;border-radius:24px;background:linear-gradient(135deg,#102719,#0c1710)}.eyebrow{color:#86ef3d;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}h1{font-size:clamp(2rem,5vw,4rem);margin:.35rem 0 .6rem}p{color:#b9cabb;line-height:1.6}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.toolbar input,.toolbar select{background:#0c1d12;border:1px solid #315b3b;color:#fff;border-radius:12px;padding:12px 14px;min-width:220px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.badge{padding:7px 11px;border-radius:999px;background:#17371f;color:#b9f989;font-size:.86rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:24px}.card{border:1px solid #203d29;border-radius:16px;padding:18px;background:#0d1b12}.card h2{font-size:1rem;margin:0 0 12px;color:#dfffd2}.card p{font-size:.88rem;margin:6px 0}.price{font-size:1.25rem;font-weight:800;color:#a6f45d}.empty{padding:35px;border:1px dashed #3d6946;border-radius:16px;color:#b9cabb;margin-top:24px}.error{color:#ffb4a8}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080e2b">
+<title>PRO SMM — Social Media Marketing Panel</title>
+<style>
+:root{--bg:#080e2b;--panel:#111b49;--panel2:#17245a;--line:#293a7b;--muted:#aab8e8;--white:#f7f8ff;--purple:#8b35ff;--blue:#168dff;--cyan:#13c7f5;--green:#29d391}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#17266a 0,transparent 38%),var(--bg);color:var(--white);font:15px/1.5 Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+button,input,select{font:inherit}button{cursor:pointer}.wrap{max-width:1440px;margin:auto;padding:0 28px}
+header{height:76px;border-bottom:1px solid #24336a;background:#080e2bd9;position:sticky;top:0;z-index:10;backdrop-filter:blur(14px)}
+.nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-size:24px;font-weight:850;letter-spacing:-1px}.brandmark{width:39px;height:39px;border-radius:13px;background:linear-gradient(140deg,#9a43ff,#167cff);display:grid;place-items:center;font-size:26px;font-weight:900;box-shadow:0 5px 24px #743cff66}.brand span:last-child{color:#a45bff}.links{display:flex;align-items:center;gap:27px}.links a{color:#e3e8ff;text-decoration:none;font-weight:600;font-size:14px}.links a:hover{color:#a978ff}.actions{display:flex;gap:10px}.btn{border:1px solid #5266b5;border-radius:13px;padding:11px 17px;color:white;background:#111b49;font-weight:750}.btn.primary{border:0;background:linear-gradient(110deg,#8b35ff,#167fff);box-shadow:0 7px 22px #5528cf55}.menu{display:none;background:none;border:0;color:white;font-size:25px}
+.hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:35px;padding:55px 0 36px;min-height:370px}.eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid #3b50a1;background:#17245c;border-radius:30px;padding:6px 13px;color:#dce4ff;font-size:13px;font-weight:700}.hero h1{font-size:clamp(37px,5vw,62px);line-height:1.04;letter-spacing:-2.3px;margin:16px 0}.gradient{background:linear-gradient(90deg,#ad43ff,#168fff,#16d2e9);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{color:#c2ccef;font-size:17px;max-width:570px}.hero-cta{display:flex;gap:13px;margin-top:24px;flex-wrap:wrap}.hero-visual{min-height:300px;position:relative;display:grid;place-items:center}.glow{position:absolute;width:75%;height:75%;background:linear-gradient(120deg,#632aff,#078cff);filter:blur(80px);opacity:.4}.dash-art{position:relative;width:100%;max-width:560px;padding:22px;border:1px solid #4562bd;border-radius:25px;background:linear-gradient(145deg,#17245aee,#0c1438ee);box-shadow:0 25px 65px #020617aa;transform:perspective(900px) rotateY(-7deg) rotateX(3deg)}.dash-top{display:flex;justify-content:space-between;color:#dfe7ff;font-weight:800;border-bottom:1px solid #29396f;padding-bottom:14px}.dash-content{display:grid;grid-template-columns:115px 1fr;gap:16px;padding-top:16px}.side div{padding:10px;color:#b8c6f5;font-size:12px}.side .active{background:#6337df;border-radius:9px;color:white}.chart{height:125px;border-radius:13px;background:linear-gradient(180deg,#20346d,#111b46);padding:14px;display:flex;align-items:end;gap:9px}.bar{flex:1;border-radius:6px 6px 2px 2px;background:linear-gradient(#18c7f4,#6642ff)}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:12px}.stat{background:#1a2a62;border:1px solid #304582;border-radius:10px;padding:12px;font-size:11px;color:#b9c8f4}.stat b{display:block;font-size:18px;color:white}
+.benefits{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid #34478e;background:#111b49c9;border-radius:16px;margin:0 0 34px;padding:17px 10px}.benefit{display:flex;justify-content:center;align-items:center;gap:13px;padding:4px 12px;border-right:1px solid #3b4b86}.benefit:last-child{border:0}.benefit .ico{font-size:27px;color:#59b5ff}.benefit b{display:block}.benefit small{color:#aebce9}
+.section{margin:34px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:17px}.section h2{font-size:25px;margin:0;letter-spacing:-.5px}.section-head p{margin:3px 0 0;color:var(--muted)}.platforms{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.platform{display:flex;align-items:center;gap:12px;text-align:left;background:linear-gradient(145deg,#1b2a63,#111b43);border:1px solid #293d80;border-radius:15px;padding:15px;color:white;transition:.2s}.platform:hover,.platform.selected{border-color:#9a62ff;transform:translateY(-2px);box-shadow:0 8px 25px #5e37bd33}.platform .picon{width:43px;height:43px;display:grid;place-items:center;border-radius:12px;background:#0b1436;font-size:24px}.platform b{display:block;font-size:14px}.platform small{color:#aebbe7;font-size:11px}
+.workarea{display:grid;grid-template-columns:1.05fr .95fr;gap:15px}.panel{background:linear-gradient(145deg,#152253,#0e173d);border:1px solid #304582;border-radius:17px;padding:20px;min-width:0}.panel-title{display:flex;align-items:center;gap:12px;margin-bottom:17px}.panel-title .symbol{font-size:25px;color:#a44bff}.panel-title h3{margin:0;font-size:18px}.panel-title p{margin:1px 0 0;color:#adbbe7;font-size:12px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field label{display:block;font-size:13px;font-weight:700;margin-bottom:6px}.field input,.field select{width:100%;padding:12px;border-radius:10px;border:1px solid #354983;background:#0e1942;color:white;outline:none}.field input:focus,.field select:focus{border-color:#9a5cff}.field input::placeholder{color:#8292c5}.estimate{margin-top:14px;padding:14px;border-radius:12px;background:#0d173d;border:1px solid #293c79;display:flex;justify-content:space-between;align-items:center}.estimate small{color:#aebbe7}.estimate strong{font-size:22px}.submit{width:100%;margin-top:13px;padding:13px;border:0;border-radius:11px;color:white;font-weight:800;background:linear-gradient(100deg,#8a35ff,#168dff)}
+.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:450px;font-size:12px}th{text-align:left;color:#b8c6ef;background:#1b2a60;padding:11px}td{padding:12px 11px;border-bottom:1px solid #293b76;color:#e3e9ff}.status{padding:4px 8px;border-radius:20px;font-size:11px;font-weight:800}.pending{background:#62451b;color:#ffd27b}.process{background:#153e82;color:#91c9ff}.done{background:#12553f;color:#8ff0c5}.empty{text-align:center;color:#9eaddd;padding:28px}
+footer{margin-top:40px;border-top:1px solid #293b76;padding:23px 0;color:#b7c4eb}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.foot strong{color:white}
+.notice{font-size:12px;color:#9eaddd;margin-top:12px}
+@media(max-width:900px){.links{gap:13px}.platforms{grid-template-columns:repeat(3,1fr)}.benefits{grid-template-columns:repeat(2,1fr);gap:12px}.benefit:nth-child(2){border:0}.workarea{grid-template-columns:1fr}.hero{gap:12px}.dash-art{transform:none}}
+@media(max-width:650px){.wrap{padding:0 15px}header{height:66px}.brand{font-size:21px}.links,.actions{display:none}.menu{display:block}.hero{grid-template-columns:1fr;padding:38px 0 25px}.hero h1{font-size:43px}.hero-visual{min-height:240px}.dash-art{padding:14px}.dash-content{grid-template-columns:85px 1fr;gap:8px}.side div{padding:8px 4px;font-size:10px}.benefits{padding:12px 5px}.benefit{justify-content:flex-start;padding:5px 8px;gap:8px}.benefit .ico{font-size:21px}.benefit small{font-size:10px}.platforms{grid-template-columns:repeat(2,1fr);gap:9px}.platform{padding:11px 9px;gap:8px}.platform .picon{width:36px;height:36px;font-size:20px}.platform b{font-size:12px}.section-head{align-items:start;flex-direction:column}.panel{padding:15px}.formgrid{grid-template-columns:1fr}.foot{flex-direction:column}}
+</style>
 </head>
 <body>
-<main>
-  <section class="hero">
-    <div class="eyebrow">PRO-SMM · Peakerr catalog</div>
-    <h1>Layanan SMM dalam satu katalog.</h1>
-    <p>Halaman ini menampilkan katalog yang disinkronkan dari Peakerr melalui backend/automation. API key tidak pernah dikirim ke browser.</p>
-    <div class="toolbar"><input id="search" type="search" placeholder="Cari layanan…"><select id="category"><option value="">Semua kategori</option></select></div>
-    <div class="meta"><span class="badge" id="count">Memuat katalog…</span><span class="badge">Read-only catalog</span></div>
-  </section>
-  <section id="services" class="grid" aria-live="polite"></section>
+<header><div class="wrap nav">
+  <div class="brand"><span class="brandmark">P</span> PRO <span>SMM</span></div>
+  <nav class="links"><a href="#beranda">⌂ Beranda</a><a href="#layanan">▦ Layanan</a><a href="#pesan">Harga</a><a href="#api">API</a><a href="#bantuan">? Bantuan</a></nav>
+  <div class="actions"><button class="btn" onclick="alert('Hubungkan halaman login melalui backend Anda.')">Masuk</button><button class="btn primary" onclick="alert('Hubungkan halaman pendaftaran melalui backend Anda.')">Daftar</button></div>
+  <button class="menu" aria-label="Menu" onclick="document.querySelector('.links').classList.toggle('mobile-open')">☰</button>
+</div></header>
+<main class="wrap" id="beranda">
+<section class="hero">
+ <div><div class="eyebrow">⚡ SMM PANEL • PRAKTIS & TRANSPARAN</div>
+  <h1>Kelola Pertumbuhan<br>Media Sosial dalam<br><span class="gradient">Satu Panel</span></h1>
+  <p>Panel layanan pemasaran digital untuk kreator, brand, dan agensi. Kelola kebutuhan media sosial dari satu tempat.</p>
+  <div class="hero-cta"><a class="btn primary" href="#pesan" style="text-decoration:none">➤ Mulai Sekarang</a><a class="btn" href="#layanan" style="text-decoration:none">▶ Lihat Layanan</a></div>
+ </div>
+ <div class="hero-visual"><div class="glow"></div><div class="dash-art">
+  <div class="dash-top"><span>◈ PRO SMM</span><span>● ● ●</span></div>
+  <div class="dash-content"><div class="side"><div class="active">▦ Dashboard</div><div>▤ Pesanan</div><div>◉ Saldo</div><div>◷ Riwayat</div><div>⚙ Pengaturan</div></div>
+   <div><b>Ringkasan Dashboard</b><div class="chart"><i class="bar" style="height:35%"></i><i class="bar" style="height:52%"></i><i class="bar" style="height:43%"></i><i class="bar" style="height:78%"></i><i class="bar" style="height:61%"></i><i class="bar" style="height:92%"></i><i class="bar" style="height:75%"></i></div><div class="stats"><div class="stat">Pesanan<b>0</b></div><div class="stat">Saldo<b>Rp 0</b></div><div class="stat">Selesai<b>0</b></div></div></div>
+  </div>
+ </div></div>
+</section>
+<section class="benefits">
+ <div class="benefit"><span class="ico">ϟ</span><div><b>Proses Praktis</b><small>Pesan dalam beberapa langkah</small></div></div>
+ <div class="benefit"><span class="ico">⬟</span><div><b>Harga Transparan</b><small>Informasi biaya jelas</small></div></div>
+ <div class="benefit"><span class="ico">◷</span><div><b>Pelacakan Pesanan</b><small>Pantau status pesanan</small></div></div>
+ <div class="benefit"><span class="ico">♧</span><div><b>Dukungan Pelanggan</b><small>Bantuan saat diperlukan</small></div></div>
+</section>
+<section class="section" id="layanan">
+ <div class="section-head"><div><h2>Layanan Populer</h2><p>Pilih platform untuk melihat kategori layanan.</p></div><a class="btn" href="#pesan" style="text-decoration:none">Buat Pesanan →</a></div>
+ <div class="platforms">
+  <button class="platform selected" data-platform="Instagram"><span class="picon">📸</span><span><b>Instagram</b><small>Views • Likes • Followers</small></span></button>
+  <button class="platform" data-platform="YouTube"><span class="picon">▶️</span><span><b>YouTube</b><small>Views • Likes • Subscribers</small></span></button>
+  <button class="platform" data-platform="TikTok"><span class="picon">🎵</span><span><b>TikTok</b><small>Views • Likes • Followers</small></span></button>
+  <button class="platform" data-platform="Facebook"><span class="picon">f</span><span><b>Facebook</b><small>Views • Likes • Followers</small></span></button>
+  <button class="platform" data-platform="Telegram"><span class="picon">➤</span><span><b>Telegram</b><small>Members • Views</small></span></button>
+  <button class="platform" data-platform="X"><span class="picon">𝕏</span><span><b>X</b><small>Followers • Likes</small></span></button>
+ </div>
+</section>
+<section class="section workarea" id="pesan">
+ <div class="panel">
+  <div class="panel-title"><span class="symbol">🛒</span><div><h3>Buat Pesanan Baru</h3><p>Isi formulir untuk membuat simulasi pesanan.</p></div></div>
+  <form id="orderForm">
+   <div class="formgrid">
+    <div class="field"><label for="platform">Pilih Platform</label><select id="platform"><option>Instagram</option><option>YouTube</option><option>TikTok</option><option>Facebook</option><option>Telegram</option><option>X</option></select></div>
+    <div class="field"><label for="service">Pilih Layanan</label><select id="service"><option value="12000">Followers / Subscribers</option><option value="5000">Likes</option><option value="1500">Views</option></select></div>
+    <div class="field" style="grid-column:1/-1"><label for="url">Tautan Konten / Profil</label><input id="url" type="url" placeholder="https://..." required></div>
+    <div class="field"><label for="quantity">Jumlah</label><input id="quantity" type="number" min="1" max="1000000" value="1000" required></div>
+    <div class="field"><label>Estimasi biaya</label><div class="estimate" style="margin:0"><small>Total</small><strong id="total">Rp 12.000</strong></div></div>
+   </div>
+   <button class="submit" type="submit">➤ Buat Pesanan</button>
+   <p class="notice">Demo antarmuka: pesanan belum dikirim ke supplier. Hubungkan backend/API untuk transaksi nyata.</p>
+  </form>
+ </div>
+ <div class="panel">
+  <div class="panel-title"><span class="symbol">◷</span><div><h3>Pelacakan Pesanan</h3><p>Contoh tampilan status pesanan Anda.</p></div></div>
+  <div class="table-wrap"><table><thead><tr><th>ID Pesanan</th><th>Layanan</th><th>Jumlah</th><th>Status</th></tr></thead><tbody id="orders"><tr><td colspan="4" class="empty">Belum ada pesanan. Buat pesanan untuk melihatnya di sini.</td></tr></tbody></table></div>
+  <p class="notice">Status pada halaman ini bersifat lokal dan hanya contoh.</p>
+ </div>
+</section>
+<section class="section panel" id="api"><div class="panel-title"><span class="symbol">⌘</span><div><h3>API & Integrasi Reseller</h3><p>Siapkan integrasi API supplier untuk otomatisasi pesanan dan sinkronisasi status.</p></div></div><p class="notice">API key, endpoint supplier, saldo, pembayaran, autentikasi, dan webhook harus diproses di server. Jangan menaruh API key rahasia di HTML/JavaScript browser.</p></section>
 </main>
+<footer id="bantuan"><div class="wrap foot"><div><strong>◈ PRO SMM</strong><br><small>All Social Media Services in One Panel.</small></div><div>© 2026 PRO SMM. Semua hak dilindungi.</div><div>Keamanan • Transparansi • Dukungan</div></div></footer>
 <script>
-  const state={items:[],query:'',category:''};
-  const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
-  function render(){const list=state.items.filter(x=>(!state.category||String(x.category||'')===state.category)&&(!state.query||JSON.stringify(x).toLowerCase().includes(state.query.toLowerCase())));document.querySelector('#count').textContent=`${list.length} layanan`;document.querySelector('#services').innerHTML=list.length?list.map(x=>`<article class="card"><h2>${esc(x.name||x.service||'Unnamed service')}</h2><p>${esc(x.category||'Uncategorized')}</p><p>${esc(x.description||x.type||'Peakerr service')}</p><div class="price">${esc(x.rate??x.price??'—')}</div></article>`).join(''):`<div class="empty">Katalog belum tersedia atau tidak ada hasil pencarian.</div>`}
-  async function init(){try{const r=await fetch('./data/services.json',{cache:'no-store'});if(!r.ok)throw Error('catalog not found');state.items=await r.json();const cats=[...new Set(state.items.map(x=>x.category).filter(Boolean))].sort();document.querySelector('#category').insertAdjacentHTML('beforeend',cats.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join(''));render()}catch(e){document.querySelector('#count').textContent='Katalog belum disinkronkan';document.querySelector('#services').innerHTML='<div class="empty error">Belum ada data layanan. Jalankan sinkronisasi Peakerr setelah GitHub Actions/Render aktif.</div>'}}
-  search.oninput=e=>{state.query=e.target.value;render()};category.onchange=e=>{state.category=e.target.value;render()};init();
+const platform=document.getElementById('platform'), service=document.getElementById('service'), qty=document.getElementById('quantity'), total=document.getElementById('total');
+function calc(){const n=Math.max(0,Number(qty.value)||0);total.textContent=new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(n*Number(service.value)/1000)}
+[platform,service,qty].forEach(el=>el.addEventListener('input',calc));calc();
+fetch('./data/services.json',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(items=>{
+  if(!Array.isArray(items)||!items.length)return;
+  service.innerHTML=items.slice(0,500).map(x=>{const name=x.name||x.service||x.title||'Peakerr service';const rate=Number(x.rate||x.price||0);return `<option value="${rate}">${name} — ${x.category||x.type||'SMM'}</option>`}).join('');
+  const note=document.querySelector('.notice'); if(note)note.textContent=`Katalog Peakerr aktif: ${items.length.toLocaleString('id-ID')} layanan. Pesanan demo belum dikirim ke supplier.`;
+  calc();
+}).catch(()=>{});
+document.querySelectorAll('.platform').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.platform').forEach(x=>x.classList.remove('selected'));btn.classList.add('selected');platform.value=btn.dataset.platform;document.getElementById('pesan').scrollIntoView({behavior:'smooth',block:'center'})}));
+document.getElementById('orderForm').addEventListener('submit',e=>{e.preventDefault();const link=document.getElementById('url').value;const n=Number(qty.value);if(!/^https?:\/\//i.test(link)){alert('Masukkan tautan yang diawali http:// atau https://');return}if(n<1||n>1000000){alert('Jumlah harus antara 1 sampai 1.000.000');return}const id='PSM'+Date.now().toString().slice(-7);const tr=document.createElement('tr');[id,platform.value+' • '+service.options[service.selectedIndex].text,n.toLocaleString('id-ID')].forEach(v=>{const td=document.createElement('td');td.textContent=v;tr.appendChild(td)});const td=document.createElement('td');td.innerHTML='<span class="status pending">Demo</span>';tr.appendChild(td);const body=document.getElementById('orders');if(body.querySelector('.empty'))body.innerHTML='';body.prepend(tr);alert('Pesanan demo berhasil ditambahkan ke tabel. Untuk pemrosesan nyata, hubungkan backend dan API supplier.')});
 </script>
 </body>
 </html>
