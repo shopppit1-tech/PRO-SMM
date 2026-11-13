@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PRO-SMM · Peakerr Services</title>
+  <style>
+    :root{color-scheme:dark;font-family:Inter,ui-sans-serif,system-ui,sans-serif}*{box-sizing:border-box}body{margin:0;background:#08110c;color:#eef8ef}main{max-width:1120px;margin:auto;padding:28px 18px 56px}.hero{padding:32px;border:1px solid #23452d;border-radius:24px;background:linear-gradient(135deg,#102719,#0c1710)}.eyebrow{color:#86ef3d;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}h1{font-size:clamp(2rem,5vw,4rem);margin:.35rem 0 .6rem}p{color:#b9cabb;line-height:1.6}.toolbar{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.toolbar input,.toolbar select{background:#0c1d12;border:1px solid #315b3b;color:#fff;border-radius:12px;padding:12px 14px;min-width:220px}.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.badge{padding:7px 11px;border-radius:999px;background:#17371f;color:#b9f989;font-size:.86rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:24px}.card{border:1px solid #203d29;border-radius:16px;padding:18px;background:#0d1b12}.card h2{font-size:1rem;margin:0 0 12px;color:#dfffd2}.card p{font-size:.88rem;margin:6px 0}.price{font-size:1.25rem;font-weight:800;color:#a6f45d}.empty{padding:35px;border:1px dashed #3d6946;border-radius:16px;color:#b9cabb;margin-top:24px}.error{color:#ffb4a8}
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div class="eyebrow">PRO-SMM · Peakerr catalog</div>
+    <h1>Layanan SMM dalam satu katalog.</h1>
+    <p>Halaman ini menampilkan katalog yang disinkronkan dari Peakerr melalui backend/automation. API key tidak pernah dikirim ke browser.</p>
+    <div class="toolbar"><input id="search" type="search" placeholder="Cari layanan…"><select id="category"><option value="">Semua kategori</option></select></div>
+    <div class="meta"><span class="badge" id="count">Memuat katalog…</span><span class="badge">Read-only catalog</span></div>
+  </section>
+  <section id="services" class="grid" aria-live="polite"></section>
+</main>
+<script>
+  const state={items:[],query:'',category:''};
+  const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  function render(){const list=state.items.filter(x=>(!state.category||String(x.category||'')===state.category)&&(!state.query||JSON.stringify(x).toLowerCase().includes(state.query.toLowerCase())));document.querySelector('#count').textContent=`${list.length} layanan`;document.querySelector('#services').innerHTML=list.length?list.map(x=>`<article class="card"><h2>${esc(x.name||x.service||'Unnamed service')}</h2><p>${esc(x.category||'Uncategorized')}</p><p>${esc(x.description||x.type||'Peakerr service')}</p><div class="price">${esc(x.rate??x.price??'—')}</div></article>`).join(''):`<div class="empty">Katalog belum tersedia atau tidak ada hasil pencarian.</div>`}
+  async function init(){try{const r=await fetch('./data/services.json',{cache:'no-store'});if(!r.ok)throw Error('catalog not found');state.items=await r.json();const cats=[...new Set(state.items.map(x=>x.category).filter(Boolean))].sort();document.querySelector('#category').insertAdjacentHTML('beforeend',cats.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join(''));render()}catch(e){document.querySelector('#count').textContent='Katalog belum disinkronkan';document.querySelector('#services').innerHTML='<div class="empty error">Belum ada data layanan. Jalankan sinkronisasi Peakerr setelah GitHub Actions/Render aktif.</div>'}}
+  search.oninput=e=>{state.query=e.target.value;render()};category.onchange=e=>{state.category=e.target.value;render()};init();
+</script>
+</body>
+</html>
