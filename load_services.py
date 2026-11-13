@@ -3,6 +3,7 @@
 
 import argparse
 import json
+import os
 import sys
 
 from peakerr_client import PeakerrAPIError, PeakerrClient, save_services
@@ -25,6 +26,7 @@ def main() -> int:
     try:
         client = PeakerrClient.from_environment()
         services = client.list_services()
+        os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
         with open(args.output, "w", encoding="utf-8") as file:
             json.dump(services, file, ensure_ascii=False, indent=2)
             file.write("\n")
