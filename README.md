@@ -1,44 +1,34 @@
 # PRO-SMM
 
-Integrasi ringan untuk memuat katalog layanan dari API Peakerr ke `data/services.json`.
+PRO-SMM adalah frontend katalog layanan Facebook dan YouTube yang terhubung ke backend live Render. Backend menyimpan API key Peakerr di environment server dan memakai Supabase Auth untuk login email.
 
-## Prasyarat
+## Live
 
-- Python 3.10 atau lebih baru.
-- Akun Peakerr dengan API key. API key tidak disimpan di source code atau Git.
+- Frontend: `https://shopppit1-tech.github.io/PRO-SMM/`
+- Backend health: `https://pro-smm-live-api.onrender.com/health`
+- Katalog live: `https://pro-smm-live-api.onrender.com/api/services`
+- Render Dashboard: `https://dashboard.render.com/web/srv-dbr7nl6tlv9c73fn4gag`
 
-## Konfigurasi
+## Fitur backend
 
-Salin template environment, lalu isi key secara lokal:
+- `POST /api/auth/signup` — daftar email/password Supabase.
+- `POST /api/auth/signin` — login email/password Supabase.
+- `GET /api/services` — mengambil layanan Peakerr live dan menghitung `rate_idr`.
+- `POST /api/orders` — mengirim order nyata ke Peakerr dengan Bearer token login.
+- `GET /api/orders/:orderId` — membaca status order dari Peakerr.
+- `GET /health` — health check Render.
 
-```bash
-cp .env.example .env
-export PEAKERR_API_KEY="your-peakerr-api-key"
-```
+Pesanan pada endpoint `/api/orders` adalah transaksi nyata dan memakai saldo akun Peakerr. Halaman frontend meminta login terlebih dahulu sebelum mengirim order.
 
-Atau gunakan environment manager pilihan Anda. Jangan commit file `.env`.
+## Environment backend
 
-## Memuat layanan
+Lihat `.env.backend.example`. Secret wajib disimpan di Render Environment, bukan di GitHub Pages:
 
-```bash
-python3 load_services.py --summary
-```
+- `PEAKERR_API_KEY`
+- `PEAKERR_API_URL`
+- `SUPABASE_URL`
+- `SUPABASE_ANON_KEY`
+- `FRONTEND_ORIGIN`
+- `USD_TO_IDR`
 
-Perintah ini melakukan `POST https://peakerr.com/api/v2` dengan `action=services` dan menyimpan respons array layanan ke `data/services.json`. Integrasi ini hanya membaca katalog; tidak ada endpoint order, pembayaran, atau perubahan akun yang dipanggil.
-
-Endpoint dapat dioverride untuk pengujian:
-
-```bash
-export PEAKERR_API_URL="https://peakerr.com/api/v2"
-```
-
-## Struktur
-
-- `peakerr_client.py` — client HTTP dan validasi respons API.
-- `load_services.py` — CLI pemuat katalog.
-- `data/` — output lokal; katalog hasil API diabaikan Git.
-- `.env.example` — template konfigurasi tanpa kredensial.
-
-## Catatan API
-
-Percobaan tanpa key pada endpoint v2 terverifikasi mengembalikan `401 Invalid API key`. Karena itu, pemuatan katalog aktual baru dapat dijalankan setelah API key Peakerr tersedia di environment lokal atau secret deployment.
+Katalog memakai kurs tampilan USD/IDR yang dikonfigurasi melalui `USD_TO_IDR`; kurs tersebut hanya untuk tampilan harga, bukan mekanisme pembayaran.
