@@ -9372,6 +9372,18 @@
     "category": "New Services 2025 [ February ]"
   },
   {
+    "service": 19185,
+    "name": "Facebook - Video Views | MQ 100M🔥🔥🔝",
+    "type": "Default",
+    "rate": "0.0293",
+    "min": 500,
+    "max": 100000000,
+    "dripfeed": false,
+    "refill": false,
+    "cancel": false,
+    "category": "New Services 2025 [ February ]"
+  },
+  {
     "service": 12854,
     "name": "TikTok - Video Views | MQ 5M🔥🔥🔝",
     "type": "Default",
@@ -14380,7 +14392,7 @@
     "name": "Facebook - Page Likes+Followers | MQ 200K | Real | Speed 5K-10K P/D | 0-1 Hours | Lifetime 🔥🔥🔝",
     "type": "Default",
     "rate": "0.98",
-    "min": 100,
+    "min": 10,
     "max": 200000,
     "dripfeed": false,
     "refill": false,
@@ -14396,7 +14408,7 @@
     "max": 500000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Facebook - Likes"
   },
   {
