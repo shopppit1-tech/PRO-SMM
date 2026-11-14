@@ -19592,7 +19592,7 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Facebook Followers"
   },
   {
@@ -19604,7 +19604,7 @@
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Facebook Followers"
   },
   {
@@ -23564,7 +23564,7 @@
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Facebook - Cheapest Services"
   },
   {
