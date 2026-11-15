@@ -2823,9 +2823,9 @@
     "service": 36642,
     "name": "Instagram Followers HQ [ Refill-365 Days ]",
     "type": "Default",
-    "rate": "2.926",
-    "min": 10,
-    "max": 10000000,
+    "rate": "2.0216",
+    "min": 100,
+    "max": 300000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -7244,7 +7244,7 @@
     "max": 500000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "TikTok - Followers"
   },
   {
@@ -7275,7 +7275,7 @@
     "service": 24616,
     "name": "TikTok - Likes | MQ 100K | HQ Real Profiles | Day 100K | Ultra Fast🔝",
     "type": "Default",
-    "rate": "0.308",
+    "rate": "0.77",
     "min": 5,
     "max": 100000,
     "dripfeed": false,
@@ -7287,7 +7287,7 @@
     "service": 24667,
     "name": "TikTok - Likes | MQ 100M | HQ &amp; Real Profiles | Cancel Enable | Non Drop | Instant | Day 200K | R30🔝",
     "type": "Default",
-    "rate": "0.336",
+    "rate": "0.896",
     "min": 10,
     "max": 100000000,
     "dripfeed": false,
@@ -7299,7 +7299,7 @@
     "service": 24666,
     "name": "TikTok - Likes | MQ 100M | HQ &amp; Real Profiles | Cancel Enable | Non Drop | Instant | Day 200K 🔝",
     "type": "Default",
-    "rate": "0.364",
+    "rate": "0.826",
     "min": 10,
     "max": 100000000,
     "dripfeed": false,
@@ -7791,7 +7791,7 @@
     "service": 13261,
     "name": "TikTok - Likes | MQ - 500k | Non Drop | R30D | Fast 🔥🔥🔝",
     "type": "Default",
-    "rate": "1.9419",
+    "rate": "3.1555",
     "min": 10,
     "max": 500000,
     "dripfeed": false,
@@ -7899,7 +7899,7 @@
     "service": 13631,
     "name": "TikTok - Likes | MQ 100K | Foreign Users | No Fall | Instant Starts | 50K per day 🔥🔥🔝",
     "type": "Default",
-    "rate": "3.0324",
+    "rate": "3.0325",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -9380,7 +9380,7 @@
     "max": 100000000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "New Services 2025 [ February ]"
   },
   {
@@ -9447,7 +9447,7 @@
     "service": 14949,
     "name": "Facebook - Emoticons Post/Photo Likes | Angry | MQ 50K | 0-15 Min🔥🔥🔝",
     "type": "Default",
-    "rate": "0.191",
+    "rate": "0.1889",
     "min": 10,
     "max": 10000000,
     "dripfeed": false,
@@ -9711,7 +9711,7 @@
     "service": 2634,
     "name": "Twitter - Likes (Favorite) | MQ 3K | Speed 3K P/H | Instant | Real 🔥🔥🔝",
     "type": "Default",
-    "rate": "1.9453",
+    "rate": "1.9452",
     "min": 100,
     "max": 10000,
     "dripfeed": false,
@@ -10808,7 +10808,7 @@
     "max": 100000000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Testing Facebook"
   },
   {
@@ -10827,7 +10827,7 @@
     "service": 3453,
     "name": "Facebook - Emotions Post/Photo Likes | Angry | MQ 1K | 0-1 Hours 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.1872",
+    "rate": "0.1851",
     "min": 10,
     "max": 10000000,
     "dripfeed": false,
@@ -14667,7 +14667,7 @@
     "service": 14946,
     "name": "Facebook - Emoticons Post/Photo Likes | Angry🤬 | MQ 1K | 0-1 Hours🔥🔥🔝",
     "type": "Default",
-    "rate": "0.1872",
+    "rate": "0.1851",
     "min": 10,
     "max": 10000000,
     "dripfeed": false,
@@ -15687,7 +15687,7 @@
     "service": 26294,
     "name": "TikTok - Likes | MQ 50K | HQ Profiles | Cancel Enable | Instant Start | Day 50K | 1 Min Completed | R120",
     "type": "Default",
-    "rate": "0.35",
+    "rate": "0.91",
     "min": 10,
     "max": 50000,
     "dripfeed": false,
@@ -15699,7 +15699,7 @@
     "service": 26303,
     "name": "TikTok - Likes | MQ 50M | HQ &amp; Real Profiles | Cancel Enable | Non Drop | 365 Days | Instant Start | Day 200K | Best Working | R365",
     "type": "Default",
-    "rate": "0.322",
+    "rate": "0.952",
     "min": 10,
     "max": 50000000,
     "dripfeed": false,
@@ -15711,7 +15711,7 @@
     "service": 26311,
     "name": "TikTok - Likes | MQ 50M | HQ &amp; Real Profiles | Cancel Enable | Non Drop | Instant Start | Day 200K | Lifetime",
     "type": "Default",
-    "rate": "0.336",
+    "rate": "0.952",
     "min": 10,
     "max": 50000000,
     "dripfeed": false,
@@ -15776,7 +15776,7 @@
     "max": 50000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ Saudi Arabia 🇸🇦 ] ᴺᴱᵂ"
   },
   {
@@ -15788,7 +15788,7 @@
     "max": 50000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ Saudi Arabia 🇸🇦 ] ᴺᴱᵂ"
   },
   {
@@ -16181,7 +16181,7 @@
     "type": "Default",
     "rate": "1.40",
     "min": 50,
-    "max": 300000,
+    "max": 50000,
     "dripfeed": false,
     "refill": false,
     "cancel": false,
@@ -16976,7 +16976,7 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ 100% Old Real Accounts 🏅] [ Fast Server ] ᴺᴱᵂ"
   },
   {
@@ -16988,7 +16988,7 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ 100% Old Real Accounts 🏅] [ Fast Server ] ᴺᴱᵂ"
   },
   {
@@ -22028,14 +22028,14 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Tiktok Followers [VIP]"
   },
   {
     "service": 30989,
     "name": "Tiktok Followers [No Drop] [10-20K/D] [Start Time Up to 24 Hours]",
     "type": "Default",
-    "rate": "4.704",
+    "rate": "6.4512",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -22388,7 +22388,7 @@
     "max": 500000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ Old Accounts +Posts ] [ High Speed ] ᴺᴱᵂ"
   },
   {
@@ -22436,7 +22436,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ FAST ]  ᴺᴱᵂ"
   },
   {
@@ -22676,7 +22676,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ ULTRAFAST Speed🚨 ] ᴺᴱᵂ"
   },
   {
@@ -22688,7 +22688,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ ULTRAFAST Speed🚨 ] ᴺᴱᵂ"
   },
   {
@@ -22700,7 +22700,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ ULTRAFAST Speed🚨 ] ᴺᴱᵂ"
   },
   {
@@ -22712,7 +22712,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ ULTRAFAST Speed🚨 ] ᴺᴱᵂ"
   },
   {
@@ -22724,7 +22724,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ ULTRAFAST Speed🚨 ] ᴺᴱᵂ"
   },
   {
@@ -22784,7 +22784,7 @@
     "max": 5000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ Real Data ] [ NON DROP ] [ Provider ] ᴺᴱᵂ"
   },
   {
@@ -22796,7 +22796,7 @@
     "max": 5000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram Likes [ Real Data ] [ NON DROP ] [ Provider ] ᴺᴱᵂ"
   },
   {
@@ -23331,7 +23331,7 @@
     "service": 31552,
     "name": "Kick Followers | Global Users | ♻️ 30 Days Refill |",
     "type": "Default",
-    "rate": "0.196",
+    "rate": "0.378",
     "min": 10,
     "max": 5000,
     "dripfeed": false,
@@ -23607,7 +23607,7 @@
     "service": 32264,
     "name": "Facebook - Followers ( Profile / Page ) ( HQ Real ) ( WorldWide 🌎 ) ( Max 500K ) ( Instant ) ( 50K/Day ) ( R90 )",
     "type": "Default",
-    "rate": "0.3211",
+    "rate": "0.3153",
     "min": 100,
     "max": 50000,
     "dripfeed": false,
@@ -23900,7 +23900,7 @@
     "max": 1000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "New Tiktok Followers(Provider)"
   },
   {
@@ -23936,7 +23936,7 @@
     "max": 1000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "New Tiktok Followers(Provider)"
   },
   {
@@ -24008,7 +24008,7 @@
     "max": 1000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": false,
+    "cancel": true,
     "category": "🔥 TikTok Follow — Main Provider | [Real Old Accounts] | Nondrop🚀"
   },
   {
