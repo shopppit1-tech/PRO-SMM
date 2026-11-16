@@ -7791,9 +7791,9 @@
     "service": 13261,
     "name": "TikTok - Likes | MQ - 500k | Non Drop | R30D | Fast 🔥🔥🔝",
     "type": "Default",
-    "rate": "3.1555",
+    "rate": "3.1482",
     "min": 10,
-    "max": 500000,
+    "max": 100000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -15008,7 +15008,7 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Facebook - Others"
   },
   {
@@ -23458,30 +23458,6 @@
     "refill": false,
     "cancel": true,
     "category": "SV1 - Facebook - Live Stream Viewers [ Increase 90% - 120% ] [ Natural Increase ]"
-  },
-  {
-    "service": 32192,
-    "name": "Facebook - Views / Plays [ Market Cheapest ]",
-    "type": "Default",
-    "rate": "0.023",
-    "min": 500,
-    "max": 400000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Facebook - Views / Plays [ Market Cheapest ]"
-  },
-  {
-    "service": 32193,
-    "name": "Facebook - Views / Plays [ Market Cheapest ]",
-    "type": "Default",
-    "rate": "0.0299",
-    "min": 500,
-    "max": 400000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Facebook - Views / Plays [ Market Cheapest ]"
   },
   {
     "service": 32194,
