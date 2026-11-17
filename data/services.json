@@ -1,5 +1,29 @@
 [
   {
+    "service": 35215,
+    "name": "Instagram Italy Followers",
+    "type": "Default",
+    "rate": "6.72",
+    "min": 10,
+    "max": 2000,
+    "dripfeed": false,
+    "refill": true,
+    "cancel": false,
+    "category": "Instagram Targeted Followers [Flag On / Off Working]"
+  },
+  {
+    "service": 35219,
+    "name": "Instagram Germany Followers",
+    "type": "Default",
+    "rate": "9.408",
+    "min": 20,
+    "max": 2000,
+    "dripfeed": false,
+    "refill": true,
+    "cancel": false,
+    "category": "Instagram Targeted Followers [Flag On / Off Working]"
+  },
+  {
     "service": 36827,
     "name": "TikTok Video Views | Speed 2M/D",
     "type": "Default",
@@ -1688,7 +1712,7 @@
     "max": 50000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram USA"
   },
   {
@@ -6064,7 +6088,7 @@
     "name": "Instagram Likes [80% FEMALE] [Refill: LIFETIME GUARANTEED]  [Max: 25K] [Start Time:  Instant] [Speed: 10K/Hour]",
     "type": "Default",
     "rate": "0.7875",
-    "min": 100,
+    "min": 10,
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
@@ -7184,7 +7208,7 @@
     "max": 400000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "TikTok - Followers"
   },
   {
@@ -7264,7 +7288,7 @@
     "name": "TikTok - Followers | MQ 1M | HQ | Speed 30K | R365🔥🔥🔝",
     "type": "Default",
     "rate": "4.90",
-    "min": 50,
+    "min": 10,
     "max": 500000,
     "dripfeed": false,
     "refill": false,
@@ -7280,7 +7304,7 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "TikTok - Followers"
   },
   {
@@ -7292,7 +7316,7 @@
     "max": 500000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "TikTok - Followers"
   },
   {
@@ -7683,12 +7707,12 @@
     "service": 17791,
     "name": "Tiktok - Likes | MQ 200K | Speed 5K P/D | Instant | HQ | R30 🔥🔥🔝",
     "type": "Default",
-    "rate": "1.344",
+    "rate": "2.1504",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "TikTok - Likes"
   },
   {
@@ -7707,7 +7731,7 @@
     "service": 4949,
     "name": "TikTok - Likes | MQ 25K | Non Drop | Instatnt🔥🔥🔝",
     "type": "Default",
-    "rate": "1.54",
+    "rate": "3.3516",
     "min": 10,
     "max": 25000,
     "dripfeed": false,
@@ -7995,7 +8019,7 @@
     "service": 5171,
     "name": "TikTok - Views | MQ 5M | 0-15Min 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0115",
+    "rate": "0.0124",
     "min": 100,
     "max": 100000000,
     "dripfeed": false,
@@ -8007,7 +8031,7 @@
     "service": 3231,
     "name": "TikTok - Views | MQ 10M | 0-30Min 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0115",
+    "rate": "0.0124",
     "min": 100,
     "max": 100000000,
     "dripfeed": false,
@@ -8079,7 +8103,7 @@
     "service": 16684,
     "name": "TikTok - Views + Share | MQ 200M 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0289",
+    "rate": "0.0261",
     "min": 100,
     "max": 100000000,
     "dripfeed": false,
@@ -8739,7 +8763,7 @@
     "service": 6058,
     "name": "TikTok - Views | MQ 100M | 0-30Min | Recommended🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0129",
+    "rate": "0.0138",
     "min": 100,
     "max": 100000000,
     "dripfeed": false,
@@ -8763,7 +8787,7 @@
     "service": 8463,
     "name": "TikTok - Views | MQ 10M | Instant 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.027",
+    "rate": "0.0242",
     "min": 100,
     "max": 50000000,
     "dripfeed": false,
@@ -11007,7 +11031,7 @@
     "service": 18339,
     "name": "Telegram - Positive Reactions +views | MQ 10M👍❤️🔥🥰👏😁🎉🤩🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0259",
+    "rate": "0.0257",
     "min": 1,
     "max": 100000,
     "dripfeed": false,
@@ -13096,7 +13120,7 @@
     "name": "Youtube - Views | MQ 10M | High Retention | Speed 50k/day | 5-15 Minute Retention🔝",
     "type": "Default",
     "rate": "1.96",
-    "min": 100,
+    "min": 75,
     "max": 100000000,
     "dripfeed": false,
     "refill": false,
@@ -13120,7 +13144,7 @@
     "name": "YouTube - Views | MQ 700K | Lifetime Warranty 🔥🔥🔝",
     "type": "Default",
     "rate": "0.882",
-    "min": 100,
+    "min": 75,
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
@@ -13132,7 +13156,7 @@
     "name": "Youtube - Views | Russia | MQ 700K | Speed 100K P/D | Lifetime Warranty 🔥🔥🔝",
     "type": "Default",
     "rate": "0.882",
-    "min": 100,
+    "min": 75,
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
@@ -13156,7 +13180,7 @@
     "name": "YouTube - Views | MQ 100K | Good For Ranking | 70k-200k P/D | Instant | Lifetime🔥🔥🔝",
     "type": "Default",
     "rate": "1.0584",
-    "min": 100,
+    "min": 75,
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
@@ -17052,18 +17076,6 @@
     "category": "Instagram Followers [ Real Accounts ] [ Cheapest ]⭐ ᴺᴱᵂ"
   },
   {
-    "service": 28040,
-    "name": "Instagram Followers [ Max 1M ] | Real Accounts | Cancel Enable | Low Drop | Lifetime ♻️ | Instant Start | Day 100K 🚀",
-    "type": "Default",
-    "rate": "1.54",
-    "min": 10,
-    "max": 1000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Instagram Followers [ Real Accounts ] [ Cheapest ]⭐ ᴺᴱᵂ"
-  },
-  {
     "service": 28035,
     "name": "Instagram Followers [ Max 1M ] | Real Accounts | Cancel Enable | Low Drop | No Refill ⚠️ | Instant Start | Day 100K 🚀",
     "type": "Default",
@@ -19640,7 +19652,7 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Facebook Followers"
   },
   {
@@ -19652,7 +19664,7 @@
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Facebook Followers"
   },
   {
@@ -23484,18 +23496,6 @@
     "category": "SV1 - Facebook - Live Stream Viewers [ Increase 90% - 120% ] [ Natural Increase ]"
   },
   {
-    "service": 32192,
-    "name": "Facebook - Views / Plays [ Market Cheapest ]",
-    "type": "Default",
-    "rate": "0.023",
-    "min": 500,
-    "max": 400000000,
-    "dripfeed": false,
-    "refill": false,
-    "cancel": true,
-    "category": "Facebook - Views / Plays [ Market Cheapest ]"
-  },
-  {
     "service": 32193,
     "name": "Facebook - Views / Plays [ Market Cheapest ]",
     "type": "Default",
@@ -23612,7 +23612,7 @@
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Facebook - Cheapest Services"
   },
   {
@@ -23920,7 +23920,7 @@
     "name": "🔥 Tiktok Followers  | Real User  [High Quality] | Max 150K |1H / 3-5K ♻️ 30 Days Refill",
     "type": "Default",
     "rate": "2.072",
-    "min": 50,
+    "min": 10,
     "max": 1000000,
     "dripfeed": false,
     "refill": true,
@@ -23956,7 +23956,7 @@
     "name": "🔥 TikTok Followers | Max 1M |  HQ ( ♻️ 90 Days Refill) Provider",
     "type": "Default",
     "rate": "3.08",
-    "min": 50,
+    "min": 10,
     "max": 1000000,
     "dripfeed": false,
     "refill": true,
@@ -24028,7 +24028,7 @@
     "name": "🔥 TikTok Followers | Old Accounts (HQ) | Instant Start · 100K/Day | Nondrop  | Cancel Enable | 30 Days  Refill ♻️Arabic (Fast Speed)",
     "type": "Default",
     "rate": "3.78",
-    "min": 50,
+    "min": 10,
     "max": 1000000,
     "dripfeed": false,
     "refill": true,
@@ -26494,29 +26494,5 @@
     "refill": true,
     "cancel": false,
     "category": "Instagram Followers [Real]"
-  },
-  {
-    "service": 35215,
-    "name": "Instagram Italy Followers",
-    "type": "Default",
-    "rate": "6.72",
-    "min": 10,
-    "max": 2000,
-    "dripfeed": false,
-    "refill": true,
-    "cancel": false,
-    "category": "Instagram Targeted Followers [Flag On / Off Working]"
-  },
-  {
-    "service": 35219,
-    "name": "Instagram Germany Followers",
-    "type": "Default",
-    "rate": "9.408",
-    "min": 20,
-    "max": 2000,
-    "dripfeed": false,
-    "refill": true,
-    "cancel": false,
-    "category": "Instagram Targeted Followers [Flag On / Off Working]"
   }
 ]
