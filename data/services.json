@@ -1,5 +1,17 @@
 [
   {
+    "service": 35077,
+    "name": "Instagram Followers [Real] [Very High Quality]",
+    "type": "Default",
+    "rate": "4.6214",
+    "min": 10,
+    "max": 20000,
+    "dripfeed": false,
+    "refill": true,
+    "cancel": false,
+    "category": "Instagram Followers [Real]"
+  },
+  {
     "service": 35215,
     "name": "Instagram Italy Followers",
     "type": "Default",
@@ -3908,7 +3920,7 @@
     "max": 500000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Facebook Followers [Cheapest]"
   },
   {
@@ -3920,7 +3932,7 @@
     "max": 500000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Facebook Followers [Cheapest]"
   },
   {
@@ -8019,9 +8031,9 @@
     "service": 5171,
     "name": "TikTok - Views | MQ 5M | 0-15Min 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0124",
+    "rate": "0.0055",
     "min": 100,
-    "max": 100000000,
+    "max": 10000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -8031,9 +8043,9 @@
     "service": 3231,
     "name": "TikTok - Views | MQ 10M | 0-30Min 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0124",
+    "rate": "0.0055",
     "min": 100,
-    "max": 100000000,
+    "max": 10000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -8763,9 +8775,9 @@
     "service": 6058,
     "name": "TikTok - Views | MQ 100M | 0-30Min | Recommended🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0138",
+    "rate": "0.0055",
     "min": 100,
-    "max": 100000000,
+    "max": 10000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -12663,7 +12675,7 @@
     "service": 16463,
     "name": "Instagram - Reels Likes + Impression + Reach | MQ 50K | Instant | Speed 1-2K/Hour 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.2936",
+    "rate": "0.2938",
     "min": 100,
     "max": 100000,
     "dripfeed": false,
@@ -19652,7 +19664,7 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Facebook Followers"
   },
   {
@@ -19664,7 +19676,7 @@
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Facebook Followers"
   },
   {
@@ -21351,12 +21363,12 @@
     "service": 30223,
     "name": "Instagram USA Follower [10K] [Instant - Fast] [R30]",
     "type": "Default",
-    "rate": "6.174",
+    "rate": "6.9286",
     "min": 10,
-    "max": 10000,
+    "max": 1000000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "NEW - Instagram USA Services"
   },
   {
@@ -23271,7 +23283,7 @@
     "service": 31515,
     "name": "💙 Facebook Page + Profile Followers | ♻️ 30 Days Refill",
     "type": "Default",
-    "rate": "0.686",
+    "rate": "0.672",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -23283,7 +23295,7 @@
     "service": 31518,
     "name": "💙 Facebook Page + Profile Followers | ♻️ 365 Days Refill",
     "type": "Default",
-    "rate": "0.812",
+    "rate": "0.798",
     "min": 10,
     "max": 100000,
     "dripfeed": false,
@@ -23595,12 +23607,12 @@
     "service": 32262,
     "name": "Facebook - Followers ( Profile / Page ) ( HQ Real ) ( WorldWide 🌎 ) ( Max 500K ) ( Instant ) ( 50K/Day ) ( No Refill )",
     "type": "Default",
-    "rate": "0.1748",
+    "rate": "0.1746",
     "min": 10,
     "max": 1000000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Facebook - Cheapest Services"
   },
   {
@@ -23920,11 +23932,11 @@
     "name": "🔥ᴺᴱᵂ Super Fast Tiktok Followers | [High Quality] | Max 100K |1H / 10K",
     "type": "Default",
     "rate": "2.10",
-    "min": 50,
+    "min": 10,
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "New Tiktok Followers(Provider)"
   },
   {
@@ -23932,11 +23944,11 @@
     "name": "🔥 Tiktok Follower |  Normal  [Always Stabile ] | Max 25K |   - Stabile",
     "type": "Default",
     "rate": "2.548",
-    "min": 50,
+    "min": 10,
     "max": 25000,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "New Tiktok Followers(Provider)"
   },
   {
@@ -26470,17 +26482,5 @@
     "refill": false,
     "cancel": true,
     "category": "Instagram Followers [Mix]"
-  },
-  {
-    "service": 35077,
-    "name": "Instagram Followers [Real] [Very High Quality]",
-    "type": "Default",
-    "rate": "4.6214",
-    "min": 10,
-    "max": 20000,
-    "dripfeed": false,
-    "refill": true,
-    "cancel": false,
-    "category": "Instagram Followers [Real]"
   }
 ]
