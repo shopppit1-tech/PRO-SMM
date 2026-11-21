@@ -5559,9 +5559,9 @@
     "service": 30747,
     "name": "YouTube Views - Very Slow Growth (Max 50k, 150-450/day) | Lifetime Refill | 0-24hrs",
     "type": "Default",
-    "rate": "0.882",
-    "min": 10,
-    "max": 100000,
+    "rate": "0.84",
+    "min": 100,
+    "max": 1000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -5763,7 +5763,7 @@
     "service": 30290,
     "name": "Instagram Likes [HQ] [FEW DROPS] [Refill: 30D] [Max: 100K] [Speed: 10K/D]💧⛔",
     "type": "Default",
-    "rate": "0.26",
+    "rate": "0.312",
     "min": 1,
     "max": 1000000,
     "dripfeed": false,
@@ -9831,9 +9831,9 @@
     "service": 3327,
     "name": "Instagram - Likes | Turkish | MQ 10K | 0-15Min | Real 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0978",
-    "min": 50,
-    "max": 1000000,
+    "rate": "0.163",
+    "min": 10,
+    "max": 3000000,
     "dripfeed": false,
     "refill": false,
     "cancel": true,
@@ -11643,7 +11643,7 @@
     "service": 14849,
     "name": "Instagram - Views (UPDATED WORKING) + Reel + TV | MQ 100M 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0017",
+    "rate": "0.0014",
     "min": 100,
     "max": 2147483647,
     "dripfeed": false,
@@ -12183,12 +12183,12 @@
     "service": 6486,
     "name": "Instagram - Reel Views | MQ 10M 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.0017",
+    "rate": "0.0012",
     "min": 100,
-    "max": 100000000,
+    "max": 2147483647,
     "dripfeed": false,
     "refill": false,
-    "cancel": false,
+    "cancel": true,
     "category": "Instagram - Reels"
   },
   {
@@ -12291,7 +12291,7 @@
     "service": 16463,
     "name": "Instagram - Reels Likes + Impression + Reach | MQ 50K | Instant | Speed 1-2K/Hour 🔥🔥🔝",
     "type": "Default",
-    "rate": "0.2935",
+    "rate": "0.2936",
     "min": 100,
     "max": 100000,
     "dripfeed": false,
@@ -15392,7 +15392,7 @@
     "max": 50000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ Saudi Arabia 🇸🇦 ] ᴺᴱᵂ"
   },
   {
@@ -15404,7 +15404,7 @@
     "max": 50000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ Saudi Arabia 🇸🇦 ] ᴺᴱᵂ"
   },
   {
@@ -16556,7 +16556,7 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ 100% Old Real Accounts 🏅] [ Fast Server ] ᴺᴱᵂ"
   },
   {
@@ -16568,7 +16568,7 @@
     "max": 100000,
     "dripfeed": false,
     "refill": false,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ 100% Old Real Accounts 🏅] [ Fast Server ] ᴺᴱᵂ"
   },
   {
@@ -21656,7 +21656,7 @@
     "max": 500000,
     "dripfeed": false,
     "refill": true,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ Old Accounts +Posts ] [ High Speed ] ᴺᴱᵂ"
   },
   {
@@ -21704,7 +21704,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ FAST ]  ᴺᴱᵂ"
   },
   {
@@ -21944,7 +21944,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ ULTRAFAST Speed🚨 ] ᴺᴱᵂ"
   },
   {
@@ -21956,7 +21956,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ ULTRAFAST Speed🚨 ] ᴺᴱᵂ"
   },
   {
@@ -21968,7 +21968,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ ULTRAFAST Speed🚨 ] ᴺᴱᵂ"
   },
   {
@@ -21980,7 +21980,7 @@
     "max": 10000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ 100% HQ Accounts ] [ ULTRAFAST Speed🚨 ] ᴺᴱᵂ"
   },
   {
@@ -22028,7 +22028,7 @@
     "max": 5000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ Real Data ] [ NON DROP ] [ Provider ] ᴺᴱᵂ"
   },
   {
@@ -22040,7 +22040,7 @@
     "max": 5000000,
     "dripfeed": false,
     "refill": true,
-    "cancel": true,
+    "cancel": false,
     "category": "Instagram Likes [ Real Data ] [ NON DROP ] [ Provider ] ᴺᴱᵂ"
   },
   {
